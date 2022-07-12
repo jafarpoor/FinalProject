@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NNSyzspSwo0R+rXh7RU60gWWOeb36dP4BUw8KV8EoWqgif/hdAmWIOvMP/lnx0oIhwVlqtJ6a+sr4SnlN6vheA==",
+  "dgSpecHash": "mXsnbWFQMe5K8qa4FnNEz/fQzeC3rcnGqoz3qvYc4XqA+qZ69igsyHTCOXLFxK/H0+E8ekyd3GUNuu5JrJWM4g==",
   "success": true,
-  "projectFilePath": "F:\\new\\Src\\StartsProject\\StarProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
+  "projectFilePath": "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

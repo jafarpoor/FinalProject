@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\new\\Src\\StartsProject\\StarProject\\Admin.EndPoint\\Admin.EndPoint.csproj": {}
+    "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj": {}
   },
   "projects": {
-    "F:\\new\\Src\\StartsProject\\StarProject\\Admin.EndPoint\\Admin.EndPoint.csproj": {
+    "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\new\\Src\\StartsProject\\StarProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
+        "projectUniqueName": "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
         "projectName": "Admin.EndPoint",
-        "projectPath": "F:\\new\\Src\\StartsProject\\StarProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
+        "projectPath": "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
         "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "F:\\new\\Src\\StartsProject\\StarProject\\Admin.EndPoint\\obj\\",
+        "outputPath": "F:\\FinalProject\\Admin.EndPoint\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",

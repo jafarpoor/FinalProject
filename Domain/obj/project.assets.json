@@ -509,11 +509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\new\\Src\\StartsProject\\StarProject\\Domain\\Domain.csproj",
+      "projectUniqueName": "F:\\FinalProject\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "F:\\new\\Src\\StartsProject\\StarProject\\Domain\\Domain.csproj",
+      "projectPath": "F:\\FinalProject\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-      "outputPath": "F:\\new\\Src\\StartsProject\\StarProject\\Domain\\obj\\",
+      "outputPath": "F:\\FinalProject\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",

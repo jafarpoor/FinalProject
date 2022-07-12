@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZCpgtskHyZnJd9vtFE3Mx4n2UBy7/CCnnsnQlqmO0g4VueRClDUei7fuz/X/XWLbqyG+oOhxDuiBw1oQ3AzgOg==",
+  "dgSpecHash": "ZxXbK14a+Z2Z3WNCa+IE5OvsJvsGLSAirtkSPHB9aiW3J9GtagBZTp/nseJnfc1OASx2ozeSpj/ywSinx14EUg==",
   "success": true,
-  "projectFilePath": "F:\\new\\Src\\StartsProject\\StarProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
+  "projectFilePath": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafapour\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

@@ -678,11 +678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\new\\Src\\StartsProject\\StarProject\\Application\\Application.csproj",
+      "projectUniqueName": "F:\\FinalProject\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "F:\\new\\Src\\StartsProject\\StarProject\\Application\\Application.csproj",
+      "projectPath": "F:\\FinalProject\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-      "outputPath": "F:\\new\\Src\\StartsProject\\StarProject\\Application\\obj\\",
+      "outputPath": "F:\\FinalProject\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -699,8 +699,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\new\\Src\\StartsProject\\StarProject\\Domain\\Domain.csproj": {
-              "projectPath": "F:\\new\\Src\\StartsProject\\StarProject\\Domain\\Domain.csproj"
+            "F:\\FinalProject\\Domain\\Domain.csproj": {
+              "projectPath": "F:\\FinalProject\\Domain\\Domain.csproj"
             }
           }
         }

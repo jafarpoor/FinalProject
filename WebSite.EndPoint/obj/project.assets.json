@@ -7939,11 +7939,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\new\\Src\\StartsProject\\StarProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
+      "projectUniqueName": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
       "projectName": "WebSite.EndPoint",
-      "projectPath": "F:\\new\\Src\\StartsProject\\StarProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
+      "projectPath": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
       "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-      "outputPath": "F:\\new\\Src\\StartsProject\\StarProject\\WebSite.EndPoint\\obj\\",
+      "outputPath": "F:\\FinalProject\\WebSite.EndPoint\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7960,11 +7960,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\new\\Src\\StartsProject\\StarProject\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "F:\\new\\Src\\StartsProject\\StarProject\\Infrastructure\\Infrastructure.csproj"
+            "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj"
             },
-            "F:\\new\\Src\\StartsProject\\StarProject\\Persistence\\Persistence.csproj": {
-              "projectPath": "F:\\new\\Src\\StartsProject\\StarProject\\Persistence\\Persistence.csproj"
+            "F:\\FinalProject\\Persistence\\Persistence.csproj": {
+              "projectPath": "F:\\FinalProject\\Persistence\\Persistence.csproj"
             }
           }
         }

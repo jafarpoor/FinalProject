@@ -6539,11 +6539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\new\\Src\\StartsProject\\StarProject\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "F:\\new\\Src\\StartsProject\\StarProject\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-      "outputPath": "F:\\new\\Src\\StartsProject\\StarProject\\Infrastructure\\obj\\",
+      "outputPath": "F:\\FinalProject\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6560,8 +6560,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\new\\Src\\StartsProject\\StarProject\\Persistence\\Persistence.csproj": {
-              "projectPath": "F:\\new\\Src\\StartsProject\\StarProject\\Persistence\\Persistence.csproj"
+            "F:\\FinalProject\\Persistence\\Persistence.csproj": {
+              "projectPath": "F:\\FinalProject\\Persistence\\Persistence.csproj"
             }
           }
         }
