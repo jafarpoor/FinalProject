@@ -1,0 +1,120 @@
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\appsettings.Development.json
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\appsettings.json
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.exe
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.deps.json
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.runtimeconfig.json
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.runtimeconfig.dev.json
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.dll
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\ref\Admin.EndPoint.dll
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.pdb
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.Views.dll
+E:\src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.Views.pdb
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csprojAssemblyReference.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.GeneratedMSBuildEditorConfig.editorconfig
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.AssemblyInfoInputs.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.AssemblyInfo.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.CoreCompileInputs.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.MvcApplicationPartsAssemblyInfo.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorAssemblyInfo.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorAssemblyInfo.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\staticwebassets\Admin.EndPoint.StaticWebAssets.Manifest.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\staticwebassets\Admin.EndPoint.StaticWebAssets.xml
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\scopedcss\bundle\Admin.EndPoint.styles.css
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.TagHelpers.input.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.TagHelpers.output.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorCoreGenerate.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorTargetAssemblyInfo.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorTargetAssemblyInfo.cs
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.Views.pdb
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.dll
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\ref\Admin.EndPoint.dll
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.pdb
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.genruntimeconfig.cache
+E:\src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.CopyComplete
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\appsettings.Development.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\appsettings.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.exe
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.deps.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.runtimeconfig.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.runtimeconfig.dev.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\ref\Admin.EndPoint.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.Views.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.Views.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.AssemblyReference.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.GeneratedMSBuildEditorConfig.editorconfig
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.AssemblyInfoInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.AssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.CoreCompileInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.MvcApplicationPartsAssemblyInfo.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorAssemblyInfo.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorAssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\staticwebassets\Admin.EndPoint.StaticWebAssets.Manifest.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\staticwebassets\Admin.EndPoint.StaticWebAssets.xml
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\scopedcss\bundle\Admin.EndPoint.styles.css
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.TagHelpers.input.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.TagHelpers.output.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorCoreGenerate.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorTargetAssemblyInfo.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorTargetAssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.Views.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\ref\Admin.EndPoint.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.genruntimeconfig.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.CopyComplete
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\appsettings.Development.json
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\appsettings.json
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.exe
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.deps.json
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.runtimeconfig.json
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.runtimeconfig.dev.json
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.dll
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\ref\Admin.EndPoint.dll
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.pdb
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.Views.dll
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\bin\Debug\net5.0\Admin.EndPoint.Views.pdb
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.AssemblyReference.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.GeneratedMSBuildEditorConfig.editorconfig
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.AssemblyInfoInputs.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.AssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.CoreCompileInputs.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.MvcApplicationPartsAssemblyInfo.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorAssemblyInfo.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorAssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\staticwebassets\Admin.EndPoint.StaticWebAssets.Manifest.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\staticwebassets\Admin.EndPoint.StaticWebAssets.xml
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\scopedcss\bundle\Admin.EndPoint.styles.css
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.TagHelpers.input.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.TagHelpers.output.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorCoreGenerate.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorTargetAssemblyInfo.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.RazorTargetAssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.Views.pdb
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.dll
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\ref\Admin.EndPoint.dll
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.pdb
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.genruntimeconfig.cache
+F:\new\Src\StartsProject\StarProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.CopyComplete

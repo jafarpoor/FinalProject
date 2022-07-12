@@ -1,0 +1,38 @@
+E:\src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+E:\src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Application.dll
+E:\src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Application.pdb
+E:\src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Domain.dll
+E:\src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+E:\src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+E:\src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+E:\src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+E:\src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+E:\src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.dll
+E:\src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Application.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Application.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Domain.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.pdb
+F:\new\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+F:\new\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Application.dll
+F:\new\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Application.pdb
+F:\new\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Domain.dll
+F:\new\Src\StartsProject\StarProject\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\new\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
+F:\new\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\new\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+F:\new\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+F:\new\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+F:\new\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.dll
+F:\new\Src\StartsProject\StarProject\Application\obj\Debug\netcoreapp3.1\Application.pdb

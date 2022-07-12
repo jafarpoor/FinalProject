@@ -1,0 +1,486 @@
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\appsettings.Development.json
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\appsettings.json
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.exe
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.deps.json
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.runtimeconfig.json
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.runtimeconfig.dev.json
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ref\WebSite.EndPoint.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.Views.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.Views.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Humanizer.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Application.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Domain.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Persistence.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Persistence.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Application.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Domain.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csprojAssemblyReference.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.GeneratedMSBuildEditorConfig.editorconfig
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.AssemblyInfoInputs.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.AssemblyInfo.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csproj.CoreCompileInputs.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.MvcApplicationPartsAssemblyInfo.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorAssemblyInfo.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorAssemblyInfo.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.Manifest.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.xml
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\scopedcss\bundle\WebSite.EndPoint.styles.css
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.TagHelpers.input.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.TagHelpers.output.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorCoreGenerate.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorTargetAssemblyInfo.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorTargetAssemblyInfo.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.Views.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csproj.CopyComplete
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\ref\WebSite.EndPoint.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.genruntimeconfig.cache
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Infrastructure.dll
+E:\src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Infrastructure.pdb
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Profile.cshtml.g.cs
+E:\src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\appsettings.Development.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\appsettings.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.exe
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.deps.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.runtimeconfig.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.runtimeconfig.dev.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ref\WebSite.EndPoint.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.Views.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.Views.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Humanizer.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Convention.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Hosting.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Runtime.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.TypedParts.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Application.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Domain.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Infrastructure.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Persistence.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Infrastructure.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Persistence.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Application.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Domain.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csproj.AssemblyReference.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.GeneratedMSBuildEditorConfig.editorconfig
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.AssemblyInfoInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.AssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csproj.CoreCompileInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.MvcApplicationPartsAssemblyInfo.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorAssemblyInfo.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorAssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.Manifest.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.xml
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\scopedcss\bundle\WebSite.EndPoint.styles.css
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.TagHelpers.input.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.TagHelpers.output.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorCoreGenerate.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Profile.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorTargetAssemblyInfo.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorTargetAssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.Views.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csproj.CopyComplete
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\ref\WebSite.EndPoint.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.genruntimeconfig.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\appsettings.json
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\appsettings.Development.json
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.exe
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.deps.json
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.runtimeconfig.json
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.runtimeconfig.dev.json
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ref\WebSite.EndPoint.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.Views.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.Views.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Humanizer.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Convention.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Hosting.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Runtime.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.TypedParts.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Application.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Domain.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Infrastructure.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Persistence.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Infrastructure.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Persistence.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Application.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\bin\Debug\net5.0\Domain.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csproj.AssemblyReference.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.GeneratedMSBuildEditorConfig.editorconfig
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.AssemblyInfoInputs.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.AssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csproj.CoreCompileInputs.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.MvcApplicationPartsAssemblyInfo.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorAssemblyInfo.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorAssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.Manifest.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.xml
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\scopedcss\bundle\WebSite.EndPoint.styles.css
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.TagHelpers.input.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.TagHelpers.output.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorCoreGenerate.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Profile.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorTargetAssemblyInfo.cache
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorTargetAssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.Views.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csproj.CopyComplete
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\ref\WebSite.EndPoint.dll
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.pdb
+F:\new\Src\StartsProject\StarProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.genruntimeconfig.cache

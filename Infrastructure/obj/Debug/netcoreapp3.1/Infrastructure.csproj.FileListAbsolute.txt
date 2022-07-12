@@ -1,0 +1,50 @@
+E:\src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+E:\src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+E:\src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+E:\src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+E:\src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+E:\src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+E:\src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+E:\src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+E:\src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+E:\src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Application.dll
+E:\src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+E:\src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Persistence.dll
+E:\src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Persistence.pdb
+E:\src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Application.pdb
+E:\src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Application.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Persistence.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Persistence.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Application.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+F:\new\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+F:\new\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+F:\new\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+F:\new\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Application.dll
+F:\new\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+F:\new\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Persistence.dll
+F:\new\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Persistence.pdb
+F:\new\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Application.pdb
+F:\new\Src\StartsProject\StarProject\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\new\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache
+F:\new\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\new\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+F:\new\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+F:\new\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+F:\new\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+F:\new\Src\StartsProject\StarProject\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb

@@ -1,0 +1,52 @@
+E:\src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Application.dll
+E:\src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Domain.dll
+E:\src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csprojAssemblyReference.cache
+E:\src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfoInputs.cache
+E:\src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfo.cs
+E:\src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.deps.json
+E:\src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.json
+E:\src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.dev.json
+E:\src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.dll
+E:\src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.pdb
+E:\src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Application.pdb
+E:\src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CoreCompileInputs.cache
+E:\src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyComplete
+E:\src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
+E:\src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
+E:\src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.genruntimeconfig.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.deps.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.dev.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Application.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Domain.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Application.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.AssemblyReference.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfoInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CoreCompileInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyComplete
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.genruntimeconfig.cache
+F:\new\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.deps.json
+F:\new\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.json
+F:\new\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.dev.json
+F:\new\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.dll
+F:\new\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.pdb
+F:\new\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Application.dll
+F:\new\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Domain.dll
+F:\new\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Application.pdb
+F:\new\Src\StartsProject\StarProject\Persistence\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\new\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.AssemblyReference.cache
+F:\new\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+F:\new\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfoInputs.cache
+F:\new\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CoreCompileInputs.cache
+F:\new\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
+F:\new\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
+F:\new\Src\StartsProject\StarProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.genruntimeconfig.cache

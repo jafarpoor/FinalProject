@@ -1,0 +1,29 @@
+E:\src\StartsProject\StarProject\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+E:\src\StartsProject\StarProject\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+E:\src\StartsProject\StarProject\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+E:\src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+E:\src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+E:\src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+E:\src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+E:\src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+F:\آموزش asp.net5\پیشرفته\SADR\20-11 Login User\20 project\20-11 Login User\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+F:\new\Src\StartsProject\StarProject\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+F:\new\Src\StartsProject\StarProject\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+F:\new\Src\StartsProject\StarProject\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\new\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+F:\new\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\new\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+F:\new\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+F:\new\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+F:\new\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+F:\new\Src\StartsProject\StarProject\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
