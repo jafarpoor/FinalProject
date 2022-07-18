@@ -1319,8 +1319,6 @@
 
     </div>
 
-
-
     <!-- JS Global Compulsory -->
     <script src="~/Theme/assets/js/jquery-3.5.1.min.js"></script>
     <script src="~/Theme/assets/js/plugins/popper.min.js"></script>
@@ -1342,6 +1340,9 @@
     <script src="~/Theme/assets/js/theme.js"></script>
     <!-- Here goes your custom.js -->
     <script src="~/Theme/assets/js/custom.js"></script>
+    <script>
+         @RenderSection("Scripts", required: false)
+    </script>
 </body>
 
 </html>
