@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5+lO1stfqEd8hZYGrPA97wuv6+KgS+tpAfFQcAW0v6cN6V/VR+kJe7Qr+a+OMWfiYhkxVxEFaxsqPo2oUqk9Gg==",
+  "dgSpecHash": "mXsnbWFQMe5K8qa4FnNEz/fQzeC3rcnGqoz3qvYc4XqA+qZ69igsyHTCOXLFxK/H0+E8ekyd3GUNuu5JrJWM4g==",
   "success": true,
-  "projectFilePath": "D:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "projectFilePath": "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

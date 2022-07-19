@@ -29,6 +29,33 @@ namespace WebSite.EndPoint.Controllers
             _smsService = new SmsService();
         }
 
+        [Authorize]
+        public IActionResult Index()
+        {
+            var user = _userManager.FindByNameAsync(User.Identity.Name).Result;
+            UserInfoDto userInfo = new UserInfoDto()
+            {
+              EmailConfirmed =user.EmailConfirmed,
+              Email = user.Email,
+              FullName = user.FullName,
+              PhoneNumber=user.PhoneNumber,
+              PhoneNumberConfirmed =user.PhoneNumberConfirmed ,
+              TwoFactorEnabled =user.TwoFactorEnabled,
+              UserName =user.UserName
+            };
+            return View(userInfo);
+        }
+
+
+        [Authorize]
+        public IActionResult TwoFactorEnabled()
+        {
+            var user = _userManager.FindByNameAsync(User.Identity.Name).Result;
+            var Result = _userManager.SetTwoFactorEnabledAsync(user, !user.TwoFactorEnabled).Result;
+            return RedirectToAction("Index");
+        }
+
+
         public IActionResult Register()
         {
             return View();
@@ -118,7 +145,7 @@ namespace WebSite.EndPoint.Controllers
             }
             if (result.RequiresTwoFactor)
             {
-                //
+                return RedirectToAction("TwoFactorLogin", new { model.Email , model.IsPersistent });
             }
 
             return View();

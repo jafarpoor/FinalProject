@@ -1,0 +1,80 @@
+﻿@model WebSite.EndPoint.Models.ViewModels.User.UserInfoDto
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>حساب من</h1>
+
+<div>
+    <h4>اطلاعات حساب کاربری من</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EmailConfirmed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EmailConfirmed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNumberConfirmed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumberConfirmed)
+            @if (Model.PhoneNumberConfirmed == false)
+            {
+                <a asp-action="SetPhoneNumber">تایید شماره تلفن</a>
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TwoFactorEnabled)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TwoFactorEnabled)
+            <br />
+            @if (Model.TwoFactorEnabled)
+            {
+                <b style="color:#229607"> نیاز به ورود دو مرحله ای</b>
+            }
+            else
+            {
+                <b style="color:#ff0000">ورود تک مرحله ای</b>
+            }
+            <br />
+            <a asp-action="TwoFactorEnabled">برای تغییر کلیلیک کنید</a>
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("ویرایش", "Edit", new { /* id = Model.PrimaryKey */ }) |
+</div>
