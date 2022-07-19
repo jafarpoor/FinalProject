@@ -30,6 +30,7 @@ namespace WebSite.EndPoint.Models.ViewModels.Register
         [Display(Name = "تکرار پسورد")]
         public string RePassword { get; set; }
 
+        [Required(ErrorMessage = "شماره تلفن را وارد کنید ")]
         public string PhoneNumber { get; set; }
     }
 }

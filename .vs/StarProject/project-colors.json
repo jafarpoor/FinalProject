@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cbf04e7f-7f95-42a7-88ab-2f2d8f195230": {
+      "ProjectGuid": "cbf04e7f-7f95-42a7-88ab-2f2d8f195230",
+      "DisplayName": "WebSite.EndPoint",
+      "ColorIndex": 0
+    },
+    "4a09ea1f-e75c-427f-ae5a-a4f0e2d0dfdb": {
+      "ProjectGuid": "4a09ea1f-e75c-427f-ae5a-a4f0e2d0dfdb",
+      "DisplayName": "Application",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

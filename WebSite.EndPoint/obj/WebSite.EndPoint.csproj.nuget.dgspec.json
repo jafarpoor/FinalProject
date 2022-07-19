@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj": {}
+    "D:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj": {}
   },
   "projects": {
-    "F:\\FinalProject\\Application\\Application.csproj": {
+    "D:\\FinalProject\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\FinalProject\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\FinalProject\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "F:\\FinalProject\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "F:\\FinalProject\\Application\\obj\\",
+        "projectPath": "D:\\FinalProject\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\",
+        "outputPath": "D:\\FinalProject\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f.TEHRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\FinalProject\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\FinalProject\\Domain\\Domain.csproj"
+              "D:\\FinalProject\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\FinalProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -59,26 +59,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\FinalProject\\Domain\\Domain.csproj": {
+    "D:\\FinalProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\FinalProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\FinalProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\FinalProject\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "F:\\FinalProject\\Domain\\obj\\",
+        "projectPath": "D:\\FinalProject\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\",
+        "outputPath": "D:\\FinalProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f.TEHRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,26 +133,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\FinalProject\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "F:\\FinalProject\\Infrastructure\\obj\\",
+        "projectPath": "D:\\FinalProject\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\",
+        "outputPath": "D:\\FinalProject\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f.TEHRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,8 +180,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\FinalProject\\Persistence\\Persistence.csproj": {
-                "projectPath": "F:\\FinalProject\\Persistence\\Persistence.csproj"
+              "D:\\FinalProject\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\FinalProject\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -191,26 +219,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\FinalProject\\Persistence\\Persistence.csproj": {
+    "D:\\FinalProject\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\FinalProject\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\FinalProject\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "F:\\FinalProject\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "F:\\FinalProject\\Persistence\\obj\\",
+        "projectPath": "D:\\FinalProject\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\",
+        "outputPath": "D:\\FinalProject\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f.TEHRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -224,11 +266,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\FinalProject\\Application\\Application.csproj": {
-                "projectPath": "F:\\FinalProject\\Application\\Application.csproj"
+              "D:\\FinalProject\\Application\\Application.csproj": {
+                "projectPath": "D:\\FinalProject\\Application\\Application.csproj"
               },
-              "F:\\FinalProject\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\FinalProject\\Domain\\Domain.csproj"
+              "D:\\FinalProject\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\FinalProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -276,26 +318,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj": {
+    "D:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
+        "projectUniqueName": "D:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
         "projectName": "WebSite.EndPoint",
-        "projectPath": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "F:\\FinalProject\\WebSite.EndPoint\\obj\\",
+        "projectPath": "D:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\",
+        "outputPath": "D:\\FinalProject\\WebSite.EndPoint\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f.TEHRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -309,11 +365,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj"
+              "D:\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\FinalProject\\Infrastructure\\Infrastructure.csproj"
               },
-              "F:\\FinalProject\\Persistence\\Persistence.csproj": {
-                "projectPath": "F:\\FinalProject\\Persistence\\Persistence.csproj"
+              "D:\\FinalProject\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\FinalProject\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -357,6 +413,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -365,7 +427,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

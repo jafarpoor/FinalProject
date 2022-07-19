@@ -7934,19 +7934,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jafapour\\.nuget\\packages\\": {}
+    "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
+      "projectUniqueName": "D:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
       "projectName": "WebSite.EndPoint",
-      "projectPath": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
-      "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-      "outputPath": "F:\\FinalProject\\WebSite.EndPoint\\obj\\",
+      "projectPath": "D:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
+      "packagesPath": "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\",
+      "outputPath": "D:\\FinalProject\\WebSite.EndPoint\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jafarpoor-f.TEHRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7960,11 +7960,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj"
+            "D:\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\FinalProject\\Infrastructure\\Infrastructure.csproj"
             },
-            "F:\\FinalProject\\Persistence\\Persistence.csproj": {
-              "projectPath": "F:\\FinalProject\\Persistence\\Persistence.csproj"
+            "D:\\FinalProject\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\FinalProject\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -8008,6 +8008,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8016,7 +8022,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

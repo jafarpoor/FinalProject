@@ -1,5 +1,6 @@
 ﻿using Application.Services;
 using Domain.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -18,12 +19,14 @@ namespace WebSite.EndPoint.Controllers
         private readonly SignInManager<User> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly EmailService _emailService;
+        private readonly SmsService _smsService;
         public AccountController(UserManager<User> userManager, SignInManager<User> signInManager , RoleManager<IdentityRole> roleManager )
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
             _emailService = new EmailService();
+            _smsService = new SmsService();
         }
 
         public IActionResult Register()
@@ -118,7 +121,7 @@ namespace WebSite.EndPoint.Controllers
                 //
             }
 
-            return View(model);
+            return View();
         }
 
         public IActionResult LogOut()
@@ -270,6 +273,56 @@ namespace WebSite.EndPoint.Controllers
         public string SendLinkRestPassword()
         {
             return "لینک عوض کردن رمز عبور برای شما ارسال شده است";
+        }
+
+        [Authorize]
+        public IActionResult SetPhoneNumber()
+        {
+            return View();
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult SetPhoneNumber(SetPhoneNumberDto dto)
+        {
+            var user = _userManager.FindByNameAsync(User.Identity.Name).Result;
+            var setPhoneNumber = _userManager.SetPhoneNumberAsync(user , dto.PhoneNumber).Result;
+            var token = _userManager.GenerateChangePhoneNumberTokenAsync(user, dto.PhoneNumber).Result;
+            _smsService.Send(dto.PhoneNumber, token);
+            TempData["PhoneNumber"] = dto.PhoneNumber;
+            return RedirectToAction(nameof(VerifyPhoneNumber));
+        }
+
+        [Authorize]
+        public IActionResult VerifyPhoneNumber()
+        {
+            return View(new VerifyPhoneNumberDto
+            {
+                PhoneNumber = TempData["PhoneNumber"].ToString()
+            }) ;
+        }
+        [Authorize]
+        [HttpPost]
+        public IActionResult VerifyPhoneNumber(VerifyPhoneNumberDto verify)
+        {
+            var user = _userManager.FindByNameAsync(User.Identity?.Name).Result;
+            var result = _userManager.VerifyChangePhoneNumberTokenAsync(user, verify.Code, verify.PhoneNumber).Result;
+            if(result == false)
+            {
+                ViewData["Message"] = $"کد وارد شده برای شماره {verify.PhoneNumber} اشتباه اشت";
+                return View(verify);
+            }
+            else
+            {
+                user.PhoneNumberConfirmed = true;
+                _userManager.UpdateAsync(user);
+            }
+            return View();
+        }
+
+        public string VerifySuccess()
+        {
+            return "با موفقیت وارد شدید";
         }
     }
 }
