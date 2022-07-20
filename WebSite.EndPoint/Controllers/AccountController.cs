@@ -151,6 +151,41 @@ namespace WebSite.EndPoint.Controllers
             return View();
         }
 
+        public IActionResult TwoFactorLogin(string Email , bool IsPersistent)
+        {
+           var user = _userManager.FindByNameAsync(Email).Result;
+            if (user == null)
+            {
+                return BadRequest();
+            }
+            var providerUser = _userManager.GetValidTwoFactorProvidersAsync(user).Result;
+            TwoFactorLoginDto twoFactorLoginDto = new TwoFactorLoginDto();
+
+            if (providerUser.Contains("Phone"))
+            {
+                var code = _userManager.GenerateTwoFactorTokenAsync(user, "Phone").Result;
+                _smsService.Send(user.PhoneNumber , code);
+
+                twoFactorLoginDto.Provider = "Phone";
+                twoFactorLoginDto.IsPersistent = IsPersistent;
+
+            }
+            else if (providerUser.Contains("Email"))
+            {
+                var code = _userManager.GenerateTwoFactorTokenAsync(user, "Email").Result;
+                _emailService.Execute(user.Email, "Code Two FactorLogin", "CodeValidetion");
+                twoFactorLoginDto.Provider = "Email";
+                twoFactorLoginDto.IsPersistent = IsPersistent;
+            }
+            return View(twoFactorLoginDto);
+        }
+
+        [HttpPost]
+        public IActionResult TwoFactorLogin(TwoFactorLoginDto dto)
+        {
+            return View();
+        }
+
         public IActionResult LogOut()
         {
             _signInManager.SignOutAsync();
