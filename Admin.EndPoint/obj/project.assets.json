@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\": {}
+    "C:\\Users\\jafapour\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
+      "projectUniqueName": "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
       "projectName": "Admin.EndPoint",
-      "projectPath": "D:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
-      "packagesPath": "C:\\Users\\jafarpoor-f.TEHRAN\\.nuget\\packages\\",
-      "outputPath": "D:\\FinalProject\\Admin.EndPoint\\obj\\",
+      "projectPath": "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
+      "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
+      "outputPath": "F:\\FinalProject\\Admin.EndPoint\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jafarpoor-f.TEHRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,12 +55,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -69,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

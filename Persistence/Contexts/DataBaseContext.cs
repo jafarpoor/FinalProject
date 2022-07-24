@@ -1,7 +1,9 @@
 ﻿using Application.Interfaces.Contexts;
 using Domain.Attributes;
+using Domain.Catalogs;
 using Domain.Users;
 using Microsoft.EntityFrameworkCore;
+using Persistence.EntityConfigurations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,11 +19,14 @@ namespace Persistence.Contexts
         {
 
         }
- 
+        
+        public DbSet<CatalogItem> catalogItems { get; set; }
+        public DbSet<CatalogType> catalogTypes { get; set; }
+        public DbSet<CatalogBrand> catalogBrands { get; set; }
+
         protected   override void OnModelCreating(ModelBuilder builder)
         {
-            //builder.Entity<User>().Property<DateTime?>("InsertTime");
-            //builder.Entity<User>().Property<DateTime?>("UpdateTime");
+           
 
             foreach (var entityType in builder.Model.GetEntityTypes())
             {
@@ -33,6 +38,9 @@ namespace Persistence.Contexts
                     builder.Entity(entityType.Name).Property<bool>("IsRemoved");
                 }
             }
+
+            builder.ApplyConfiguration(new CatalogTypeEntityConfigurations());
+            builder.ApplyConfiguration(new CatalogBrandEntityConfigurations());
 
             base.OnModelCreating(builder);
         }

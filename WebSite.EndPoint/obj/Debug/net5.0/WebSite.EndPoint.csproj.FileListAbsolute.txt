@@ -830,3 +830,5 @@ D:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.pdb
 D:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.genruntimeconfig.cache
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\SetPhoneNumber.cshtml.g.cs
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\VerifyPhoneNumber.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\TwoFactorLogin.cshtml.g.cs

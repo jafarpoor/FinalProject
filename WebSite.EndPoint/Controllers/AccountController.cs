@@ -183,7 +183,33 @@ namespace WebSite.EndPoint.Controllers
         [HttpPost]
         public IActionResult TwoFactorLogin(TwoFactorLoginDto dto)
         {
-            return View();
+            if (!ModelState.IsValid)
+            {
+                return View(dto);
+            }
+
+            var user = _signInManager.GetTwoFactorAuthenticationUserAsync().Result;
+            if (user == null)
+            {
+                return BadRequest();
+            }
+
+            var result = _signInManager.TwoFactorSignInAsync(dto.Provider, dto.Code, dto.IsPersistent, false).Result;
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("index");
+            }
+            else if (result.IsLockedOut)
+            {
+                ModelState.AddModelError("", "حساب کاربری شما قفل شده است");
+                return View();
+            }
+            else
+            {
+                ModelState.AddModelError("", "کد وارد شده صحیح نیست ");
+                return View();
+            }
         }
 
         public IActionResult LogOut()

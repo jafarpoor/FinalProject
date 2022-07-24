@@ -67,7 +67,6 @@ F:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CoreCompi
 F:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
 F:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
 F:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.genruntimeconfig.cache
-F:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyComplete
 D:\FinalProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.deps.json
 D:\FinalProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.json
 D:\FinalProject\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.dev.json
@@ -86,3 +85,4 @@ D:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyCompl
 D:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
 D:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
 D:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.genruntimeconfig.cache
+F:\FinalProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyComplete
