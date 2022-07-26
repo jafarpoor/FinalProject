@@ -11,7 +11,7 @@ namespace Application.Interfaces.Catalogs
         BaseDto Remove(int catalogTypeId);
         BaseDto<CatalogTypeDto> Edit(CatalogTypeDto catalogType);
         BaseDto<CatalogTypeDto> FindById(int Id);
-
+        PaginatedItemsDto<CatalogTypeListDto> GetList(int? parentId , int page , int pageSize);
 
     }
 }

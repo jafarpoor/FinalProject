@@ -31,10 +31,14 @@ namespace Persistence.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("InsertTime")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 7, 26, 12, 9, 31, 530, DateTimeKind.Local).AddTicks(3493));
 
                     b.Property<bool>("IsRemoved")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<DateTime?>("RemoveTime")
                         .HasColumnType("datetime2");
@@ -55,10 +59,14 @@ namespace Persistence.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("InsertTime")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 7, 26, 12, 9, 31, 557, DateTimeKind.Local).AddTicks(7514));
 
                     b.Property<bool>("IsRemoved")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<DateTime?>("RemoveTime")
                         .HasColumnType("datetime2");
@@ -79,10 +87,14 @@ namespace Persistence.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("InsertTime")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 7, 26, 12, 9, 31, 558, DateTimeKind.Local).AddTicks(428));
 
                     b.Property<bool>("IsRemoved")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<int?>("ParentCatalogTypeId")
                         .HasColumnType("int");
@@ -106,6 +118,37 @@ namespace Persistence.Migrations
                     b.HasIndex("ParentCatalogTypeId");
 
                     b.ToTable("CatalogType");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            TypeName = "کالای دیجیتال"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ParentIdCatalogType = 1,
+                            TypeName = "لوازم جانبی گوشی"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ParentIdCatalogType = 2,
+                            TypeName = "پایه نگهدارنده گوشی"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ParentIdCatalogType = 2,
+                            TypeName = "پاور بانک (شارژر همراه)"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ParentIdCatalogType = 2,
+                            TypeName = "کیف و کاور گوشی"
+                        });
                 });
 
             modelBuilder.Entity("Domain.Catalogs.CatalogType", b =>

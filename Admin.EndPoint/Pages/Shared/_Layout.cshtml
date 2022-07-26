@@ -234,7 +234,9 @@
             App.init();
         });
     </script>
+    <script src="~/Theme/plugins/highlight/highlight.pack.js"></script>
     <script src="~/Theme/assets/js/custom.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
     <!-- END GLOBAL MANDATORY SCRIPTS -->
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->

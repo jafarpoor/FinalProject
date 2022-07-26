@@ -11,7 +11,7 @@ namespace Domain.Catalogs
         public int Id { get; set; }
         public string TypeName { get; set; }
 
-        public int? ParentIdCatalogType { get; set; }
+        public int? ParentCatalogTypeId { get; set; }
 
         public CatalogType ParentCatalogType { get; set; }
 

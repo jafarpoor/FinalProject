@@ -1,9 +1,16 @@
+using Admin.EndPoint.AutoMapperConfigs;
+using Application.Interfaces.Catalogs;
+using Application.Interfaces.Contexts;
+using Application.Services.Catalogs;
+using Infrastructure.AutoMapperConfigs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Persistence.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +31,18 @@ namespace Admin.EndPoint
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            #region connection String SqlServer
+            services.AddScoped<IDataBaseContext, DataBaseContext>();
+            services.AddScoped<ICatalogTypeServiec, ICatalogTypeService>();
+
+            string connection = Configuration["ConnectionString:SqlServer"];
+            services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(connection));
+            #endregion
+
+            //mapper
+            services.AddAutoMapper(typeof(CatalogVMAutoMapperConfigs));
+            services.AddAutoMapper(typeof(CatalogAutoMapperConfigs));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bcPAnB6IxHmeVEr4accAflhTbbvj0nWWDUkILeu2QtMYfESKJPuLuIw2DUZP7Vkxh6+lYg72OzeM992PIluvbg==",
+  "dgSpecHash": "jTa/lS1s//VJuYhhyOaOwaJBrL9xT43KWbAkMJUXOgMXLuVeU6NziTdHsJkxzrkk8daSVHnf+e5eDanxqJRTog==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
@@ -14,9 +14,7 @@
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\jafapour\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\jafapour\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+    "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

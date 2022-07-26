@@ -832,3 +832,11 @@ F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\SetPhoneNu
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\VerifyPhoneNumber.cshtml.g.cs
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Account\TwoFactorLogin.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\AutoMapper.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Common.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Common.pdb

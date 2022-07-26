@@ -4,6 +4,7 @@ using Domain.Catalogs;
 using Domain.Users;
 using Microsoft.EntityFrameworkCore;
 using Persistence.EntityConfigurations;
+using Persistence.Seeds;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,16 +33,18 @@ namespace Persistence.Contexts
             {
                 if(entityType.ClrType.GetCustomAttributes(typeof(AuditableAttribute),true).Length>0)
                 {
-                    builder.Entity(entityType.Name).Property<DateTime>("InsertTime");
+                    builder.Entity(entityType.Name).Property<DateTime>("InsertTime").HasDefaultValue(DateTime.Now);
                     builder.Entity(entityType.Name).Property<DateTime?>("UpdateTime");
                     builder.Entity(entityType.Name).Property<DateTime?>("RemoveTime");
-                    builder.Entity(entityType.Name).Property<bool>("IsRemoved");
+                    builder.Entity(entityType.Name).Property<bool>("IsRemoved").HasDefaultValue(false);
                 }
             }
-
+            builder.Entity<CatalogType>()
+               .HasQueryFilter(m => EF.Property<bool>(m, "IsRemoved") == false);
             builder.ApplyConfiguration(new CatalogTypeEntityConfigurations());
             builder.ApplyConfiguration(new CatalogBrandEntityConfigurations());
 
+            DataBaseContextSeed.CatalogSeed(builder);
             base.OnModelCreating(builder);
         }
 
@@ -73,6 +76,10 @@ namespace Persistence.Contexts
                 {
                     item.Property("RemoveTime").CurrentValue = DateTime.Now;
                     item.Property("IsRemoved").CurrentValue = true;
+
+
+                    //چونکه نمیخواهیم از دیتابیس حذف کنیم و فقط میخواهیم تغییر وضعیت بدهیم
+                    item.State = EntityState.Modified;
                 }
             }
             return base.SaveChanges();  
