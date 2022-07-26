@@ -27,7 +27,7 @@ using WebSite.EndPoint.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"56acd359173c18746c980bddb7651ae918a1bd8f", @"/Views/Roles/Create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7364d82374edee605703708d24b836fe4cc0350c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"60a4d5eedd21e2387c9587eec03ab314daace352", @"/Views/_ViewImports.cshtml")]
     public class Views_Roles_Create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<WebSite.EndPoint.Models.ViewModels.Roles.RoleDto>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("text-danger"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

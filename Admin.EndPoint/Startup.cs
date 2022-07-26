@@ -34,7 +34,7 @@ namespace Admin.EndPoint
 
             #region connection String SqlServer
             services.AddScoped<IDataBaseContext, DataBaseContext>();
-            services.AddScoped<ICatalogTypeServiec, ICatalogTypeService>();
+            services.AddTransient<ICatalogTypeServiec, ICatalogTypeService>();
 
             string connection = Configuration["ConnectionString:SqlServer"];
             services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(connection));

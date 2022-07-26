@@ -1,3 +1,6 @@
+using Admin.EndPoint.AutoMapperConfigs;
+using Application.Interfaces.Contexts;
+using Application.Services.GetMenuItem;
 using Infrastructure.IdentityConfigs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,8 +32,10 @@ namespace WebSite.EndPoint
             services.AddControllersWithViews();
             #region  Connection String
             string connection = Configuration["ConnectionString:SqlServer"];
+            services.AddTransient<IDataBaseContext, DataBaseContext>();
             services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(connection));
-
+            services.AddTransient<IGetMenuItemService, GetMenuItemService>();
+            services.AddAutoMapper(typeof(CatalogAutoMapperConfigs));
             services.AddIdentityService(Configuration);
             services.AddAuthorization();
             services.ConfigureApplicationCookie(option =>

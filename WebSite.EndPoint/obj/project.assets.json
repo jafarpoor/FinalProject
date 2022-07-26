@@ -2399,6 +2399,25 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Admin.EndPoint/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Application": "1.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Infrastructure": "1.0.0",
+          "Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Admin.EndPoint.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Admin.EndPoint.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -7983,6 +8002,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Admin.EndPoint/1.0.0": {
+      "type": "project",
+      "path": "../Admin.EndPoint/Admin.EndPoint.csproj",
+      "msbuildProject": "../Admin.EndPoint/Admin.EndPoint.csproj"
+    },
     "Application/1.0.0": {
       "type": "project",
       "path": "../Application/Application.csproj",
@@ -8011,6 +8035,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Admin.EndPoint >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.4",
@@ -8047,6 +8072,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj": {
+              "projectPath": "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj"
+            },
             "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj"
             },
