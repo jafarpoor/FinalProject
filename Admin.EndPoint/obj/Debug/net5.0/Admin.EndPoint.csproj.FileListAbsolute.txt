@@ -220,6 +220,7 @@ F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\Infrastructure.pdb
 F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\Persistence.pdb
 F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\Common.pdb
 F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\Domain.pdb
+F:\FinalProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.AssemblyReference.cache
 F:\FinalProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.GeneratedMSBuildEditorConfig.editorconfig
 F:\FinalProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.AssemblyInfoInputs.cache
 F:\FinalProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.AssemblyInfo.cs

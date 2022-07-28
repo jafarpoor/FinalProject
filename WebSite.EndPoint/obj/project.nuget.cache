@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eLqoH/cBWcC5No3H9gN+SXUWpF8ICj3t6SYRDLnWWi141wAusQfw6bQKrzlhGvxBHH2UebsKzCPi082ZQEfjyg==",
+  "dgSpecHash": "u7+i1Bq4zaEef6kY/StKaPlTBGYwGJusVSSBC/cKodyNweaiWF6mxTSILRq9k5tL5pPnyu0C40jyNsJt2YoA3w==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafapour\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

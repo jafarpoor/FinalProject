@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "p4O57atQPMFZTlHxh30VdAQuzVPnSE9sV3FxNc9bTjBG0qafZcXePPuHO/sPa8hZxeuAsfHby2CKlIkNXgHkdQ==",
+  "dgSpecHash": "QtovfwIVmkN4n5rQ1Z8yQBGWi2sgzaAXaT6FkLETpA/CCbMFBGia0WPq2DxU6HOqAjjsBM6Z0BbRs12mUwbzfw==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafapour\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

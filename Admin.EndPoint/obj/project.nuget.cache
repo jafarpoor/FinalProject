@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OiQpIpHWC3hPzJHW3INuT0ab50HfuSfC/uec9MZPIOukVFMfsVLvYgzwUsFFQMjMugBec9uVSDsubVZT5TrUyg==",
+  "dgSpecHash": "7Jpug5xh5lXJX74G7VjDQSto9wJ7bM056wtVSuTTpus9DZ5GwjPL15lrh3RsWByXM3EAgfMoqmFm4U1iIfFB/g==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafapour\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

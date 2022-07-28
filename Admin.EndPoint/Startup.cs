@@ -1,7 +1,9 @@
 using Admin.EndPoint.AutoMapperConfigs;
 using Application.Interfaces.Catalogs;
+using Application.Interfaces.Catalogs.Dto;
 using Application.Interfaces.Contexts;
 using Application.Services.Catalogs;
+using FluentValidation;
 using Infrastructure.AutoMapperConfigs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,7 +36,8 @@ namespace Admin.EndPoint
 
             #region connection String SqlServer
             services.AddScoped<IDataBaseContext, DataBaseContext>();
-            services.AddTransient<ICatalogTypeServiec, ICatalogTypeService>();
+            services.AddTransient<ICatalogTypeServiec, CatalogTypeService>();
+            services.AddTransient<IAddNewCatalogItemService, AddNewCatalogItemService>();
 
             string connection = Configuration["ConnectionString:SqlServer"];
             services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(connection));
@@ -43,6 +46,10 @@ namespace Admin.EndPoint
             //mapper
             services.AddAutoMapper(typeof(CatalogVMAutoMapperConfigs));
             services.AddAutoMapper(typeof(CatalogAutoMapperConfigs));
+
+
+            //fluentValidation
+            services.AddTransient<IValidator<AddNewCatalogItemDto>, AddNewCatalogItemDtoValidator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

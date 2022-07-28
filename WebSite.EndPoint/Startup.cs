@@ -1,6 +1,7 @@
 using Admin.EndPoint.AutoMapperConfigs;
 using Application.Interfaces.Contexts;
 using Application.Services.GetMenuItem;
+using Infrastructure.AutoMapperConfigs;
 using Infrastructure.IdentityConfigs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

@@ -11,11 +11,11 @@ using System.Text;
 
 namespace Application.Services.Catalogs
 {
-    public class ICatalogTypeService : ICatalogTypeServiec
+    public class CatalogTypeService : ICatalogTypeServiec
     {
         private readonly IDataBaseContext _context;
         private readonly IMapper _mapper;
-        public ICatalogTypeService(IDataBaseContext context , IMapper mapper)
+        public CatalogTypeService(IDataBaseContext context , IMapper mapper)
         {
             _context = context;
             _mapper = mapper;  

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DjGBr6K5erZEY+l7trr6xIdjTq0JqfuYt53tHjDqh/MWmRuk3+TzeHT8VUrpTsR8yXx6EgtWdhNdKbrYnznKLg==",
+  "dgSpecHash": "OfiOcRaTTf1eYU/46WEdl4yz1fqZQRwCORmGGI7ijzB3tUlIHqkHcCGZ44qZptm9ODXPfY3A8psjkvURj2AWtw==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafapour\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.4\\microsoft.aspnetcore.cryptography.keyderivation.5.0.4.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

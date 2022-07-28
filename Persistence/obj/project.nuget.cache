@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7KRPaNKtgFX7ZXlSuidouxv7xRud3fA+J0KcioHM1CpTY1urg9MilzAgY5LKAfVi4ZdFkcxztkTi7VIpzEKK4A==",
+  "dgSpecHash": "DXMkmMzxoaXrU8r10ci963UWTv+yG7VHefKL0nF1s2vLiesZ7wT3fwOhBo7vn8EVwXN/tRrRyqUehxNcuyNOFQ==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafapour\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.4\\microsoft.aspnetcore.cryptography.keyderivation.5.0.4.nupkg.sha512",
