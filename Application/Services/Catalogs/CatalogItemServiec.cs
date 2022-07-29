@@ -49,7 +49,7 @@ namespace Application.Services.Catalogs
                             ).ToList().Select(p => new ListCatalogTypeDto
                             {
                                 Id = p.Id,
-                                Type = $"{p?.TypeName ?? ""} - {p?.ParentCatalogType?.TypeName ?? ""} - {p?.ParentCatalogType?.ParentCatalogType?.TypeName ?? ""}
+                                Type = $"{p?.TypeName ?? ""} - {p?.ParentCatalogType?.TypeName ?? ""} - {p?.ParentCatalogType?.ParentCatalogType?.TypeName ?? ""}"
                             }).ToList();
 
             return Result;

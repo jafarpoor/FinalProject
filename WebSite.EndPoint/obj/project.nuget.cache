@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "u7+i1Bq4zaEef6kY/StKaPlTBGYwGJusVSSBC/cKodyNweaiWF6mxTSILRq9k5tL5pPnyu0C40jyNsJt2YoA3w==",
+  "dgSpecHash": "Rlk5SY9GqDyN9dDBVygSf3aS3ZKLsX1sP/rtMdcJg0G7TKwv92CLqJMJyeh4VT2ihhMJX6Moj5gZsE1+4w+LBw==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
   "expectedPackageFiles": [
@@ -80,6 +80,7 @@
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

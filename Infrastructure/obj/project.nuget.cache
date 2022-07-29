@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QtovfwIVmkN4n5rQ1Z8yQBGWi2sgzaAXaT6FkLETpA/CCbMFBGia0WPq2DxU6HOqAjjsBM6Z0BbRs12mUwbzfw==",
+  "dgSpecHash": "5sJsYZ7y1ZGZwJP2YfX4H3qqQWWQy6bBiE82DjIY08Y3uONDAeseDJ+eZco7EiLm8PYsA/xMnOJrtUFZABW5HA==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

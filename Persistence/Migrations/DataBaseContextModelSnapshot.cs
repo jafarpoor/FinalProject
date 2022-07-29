@@ -33,7 +33,7 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("InsertTime")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 7, 26, 12, 9, 31, 530, DateTimeKind.Local).AddTicks(3493));
+                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 211, DateTimeKind.Local).AddTicks(144));
 
                     b.Property<bool>("IsRemoved")
                         .ValueGeneratedOnAdd()
@@ -49,6 +49,38 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("CatalogBrand");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BrandName = "سامسونگ"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            BrandName = "شیائومی "
+                        },
+                        new
+                        {
+                            Id = 3,
+                            BrandName = "اپل"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            BrandName = "هوآوی"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            BrandName = "نوکیا "
+                        },
+                        new
+                        {
+                            Id = 6,
+                            BrandName = "ال جی"
+                        });
                 });
 
             modelBuilder.Entity("Domain.Catalogs.CatalogItem", b =>
@@ -58,10 +90,117 @@ namespace Persistence.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("AvailableStock")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CatalogBrandId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CatalogTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("InsertTime")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 7, 26, 12, 9, 31, 557, DateTimeKind.Local).AddTicks(7514));
+                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 224, DateTimeKind.Local).AddTicks(8648));
+
+                    b.Property<bool>("IsRemoved")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<int>("MaxStockThreshold")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("RemoveTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("RestockThreshold")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CatalogBrandId");
+
+                    b.HasIndex("CatalogTypeId");
+
+                    b.ToTable("catalogItems");
+                });
+
+            modelBuilder.Entity("Domain.Catalogs.CatalogItemFeature", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("CatalogItemId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CatlogItemId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Group")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("InsertTime")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 225, DateTimeKind.Local).AddTicks(2497));
+
+                    b.Property<bool>("IsRemoved")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("Key")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("RemoveTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CatalogItemId");
+
+                    b.ToTable("catalogItemFeatures");
+                });
+
+            modelBuilder.Entity("Domain.Catalogs.CatalogItemImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("CatalogItemId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CatlogItemId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("InsertTime")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 225, DateTimeKind.Local).AddTicks(4518));
 
                     b.Property<bool>("IsRemoved")
                         .ValueGeneratedOnAdd()
@@ -71,12 +210,17 @@ namespace Persistence.Migrations
                     b.Property<DateTime?>("RemoveTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Src")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("UpdateTime")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.ToTable("catalogItems");
+                    b.HasIndex("CatalogItemId");
+
+                    b.ToTable("catalogItemImages");
                 });
 
             modelBuilder.Entity("Domain.Catalogs.CatalogType", b =>
@@ -89,7 +233,7 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("InsertTime")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 7, 26, 12, 9, 31, 558, DateTimeKind.Local).AddTicks(428));
+                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 225, DateTimeKind.Local).AddTicks(6807));
 
                     b.Property<bool>("IsRemoved")
                         .ValueGeneratedOnAdd()
@@ -97,9 +241,6 @@ namespace Persistence.Migrations
                         .HasDefaultValue(false);
 
                     b.Property<int?>("ParentCatalogTypeId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ParentIdCatalogType")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("RemoveTime")
@@ -128,27 +269,64 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = 2,
-                            ParentIdCatalogType = 1,
+                            ParentCatalogTypeId = 1,
                             TypeName = "لوازم جانبی گوشی"
                         },
                         new
                         {
                             Id = 3,
-                            ParentIdCatalogType = 2,
+                            ParentCatalogTypeId = 2,
                             TypeName = "پایه نگهدارنده گوشی"
                         },
                         new
                         {
                             Id = 4,
-                            ParentIdCatalogType = 2,
+                            ParentCatalogTypeId = 2,
                             TypeName = "پاور بانک (شارژر همراه)"
                         },
                         new
                         {
                             Id = 5,
-                            ParentIdCatalogType = 2,
+                            ParentCatalogTypeId = 2,
                             TypeName = "کیف و کاور گوشی"
                         });
+                });
+
+            modelBuilder.Entity("Domain.Catalogs.CatalogItem", b =>
+                {
+                    b.HasOne("Domain.Catalogs.CatalogBrand", "CatalogBrand")
+                        .WithMany()
+                        .HasForeignKey("CatalogBrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Catalogs.CatalogType", "CatalogType")
+                        .WithMany()
+                        .HasForeignKey("CatalogTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CatalogBrand");
+
+                    b.Navigation("CatalogType");
+                });
+
+            modelBuilder.Entity("Domain.Catalogs.CatalogItemFeature", b =>
+                {
+                    b.HasOne("Domain.Catalogs.CatalogItem", "CatalogItem")
+                        .WithMany("CatalogItemFeatures")
+                        .HasForeignKey("CatalogItemId");
+
+                    b.Navigation("CatalogItem");
+                });
+
+            modelBuilder.Entity("Domain.Catalogs.CatalogItemImage", b =>
+                {
+                    b.HasOne("Domain.Catalogs.CatalogItem", "CatalogItem")
+                        .WithMany("CatalogItemImages")
+                        .HasForeignKey("CatalogItemId");
+
+                    b.Navigation("CatalogItem");
                 });
 
             modelBuilder.Entity("Domain.Catalogs.CatalogType", b =>
@@ -158,6 +336,13 @@ namespace Persistence.Migrations
                         .HasForeignKey("ParentCatalogTypeId");
 
                     b.Navigation("ParentCatalogType");
+                });
+
+            modelBuilder.Entity("Domain.Catalogs.CatalogItem", b =>
+                {
+                    b.Navigation("CatalogItemFeatures");
+
+                    b.Navigation("CatalogItemImages");
                 });
 
             modelBuilder.Entity("Domain.Catalogs.CatalogType", b =>

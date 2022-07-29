@@ -850,3 +850,6 @@ F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.dll
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\ref\WebSite.EndPoint.dll
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.pdb
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.genruntimeconfig.cache
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\FluentValidation.dll
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.MvcApplicationPartsAssemblyInfo.cs
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\RestSharp.dll

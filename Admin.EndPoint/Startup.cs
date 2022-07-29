@@ -4,6 +4,7 @@ using Application.Interfaces.Catalogs.Dto;
 using Application.Interfaces.Contexts;
 using Application.Services.Catalogs;
 using FluentValidation;
+using Infrastructure.Api.ImageServer;
 using Infrastructure.AutoMapperConfigs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -38,6 +39,8 @@ namespace Admin.EndPoint
             services.AddScoped<IDataBaseContext, DataBaseContext>();
             services.AddTransient<ICatalogTypeServiec, CatalogTypeService>();
             services.AddTransient<IAddNewCatalogItemService, AddNewCatalogItemService>();
+            services.AddTransient<IImageUploadService, ImageUploadService>();
+
 
             string connection = Configuration["ConnectionString:SqlServer"];
             services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(connection));
