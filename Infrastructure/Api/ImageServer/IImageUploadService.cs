@@ -18,7 +18,7 @@ namespace Infrastructure.Api.ImageServer
     {
         public List<string> Upload(List<IFormFile> files)
         {
-            var client = new RestClient("https://localhost:44327/api/Images?apikey=mysecretkey");
+            var client = new RestClient("https://localhost:44361/api/Images?apikey=mysecretkey");
             client.Timeout = -1;
             var request = new RestRequest(Method.POST);
             foreach (var item in files)

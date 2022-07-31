@@ -1,3 +1,8 @@
+F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
 F:\FinalProject\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
 F:\FinalProject\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
 F:\FinalProject\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
@@ -10,11 +15,6 @@ F:\FinalProject\Infrastructure\bin\Debug\net5.0\Persistence.pdb
 F:\FinalProject\Infrastructure\bin\Debug\net5.0\Application.pdb
 F:\FinalProject\Infrastructure\bin\Debug\net5.0\Common.pdb
 F:\FinalProject\Infrastructure\bin\Debug\net5.0\Domain.pdb
-F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
-F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
-F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
-F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb

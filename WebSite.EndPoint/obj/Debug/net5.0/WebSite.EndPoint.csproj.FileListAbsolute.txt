@@ -685,6 +685,7 @@ F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.Views.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\WebSite.EndPoint.Views.pdb
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\AutoMapper.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\FluentValidation.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Humanizer.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -723,6 +724,7 @@ F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.Cod
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\RestSharp.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Convention.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\System.Composition.Hosting.dll
@@ -812,6 +814,7 @@ F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Persistence.pdb
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Application.pdb
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Common.pdb
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Domain.pdb
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.MvcApplicationPartsAssemblyInfo.cs
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.Manifest.cache
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.xml
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\scopedcss\bundle\WebSite.EndPoint.styles.css
@@ -850,6 +853,4 @@ F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.dll
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\ref\WebSite.EndPoint.dll
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.pdb
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.genruntimeconfig.cache
-F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\FluentValidation.dll
-F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.MvcApplicationPartsAssemblyInfo.cs
-F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\RestSharp.dll
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs

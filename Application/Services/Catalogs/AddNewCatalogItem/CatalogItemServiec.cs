@@ -1,7 +1,9 @@
-﻿using Application.Interfaces.Catalogs;
+﻿using Application.Dtos;
+using Application.Interfaces.Catalogs;
 using Application.Interfaces.Catalogs.Dto;
 using Application.Interfaces.Contexts;
 using AutoMapper;
+using Common;
 using Domain.Catalogs;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -53,6 +55,28 @@ namespace Application.Services.Catalogs
                             }).ToList();
 
             return Result;
+        }
+
+        PaginatedItemsDto<CatalogItemListItemDto> ICatalogItemServiec.GetCatalogItemList(int Page, int PageSize)
+        {
+            int RowCount;
+            var Result = context.catalogItems
+                            .Include(p => p.CatalogBrand)
+                            .Include(p => p.CatalogType)
+                            .ToPaged(Page, PageSize, out RowCount)
+                            .OrderByDescending(p => p.Id)
+                            .Select(p => new CatalogItemListItemDto
+                            {
+                                Id = p.Id,
+                                Brand = p.CatalogBrand.BrandName,
+                                RestockThreshold = p.RestockThreshold,
+                                Name = p.Name,
+                                Price = p.Price,
+                                Type = p.CatalogType.TypeName,
+                                AvailableStock = p.AvailableStock,
+                                MaxStockThreshold = p.MaxStockThreshold
+                            }).ToList();
+            return new PaginatedItemsDto<CatalogItemListItemDto>(Page, Page, RowCount, Result);
         }
     }
 }

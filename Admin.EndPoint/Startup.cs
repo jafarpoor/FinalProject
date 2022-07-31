@@ -39,6 +39,7 @@ namespace Admin.EndPoint
             services.AddScoped<IDataBaseContext, DataBaseContext>();
             services.AddTransient<ICatalogTypeServiec, CatalogTypeService>();
             services.AddTransient<IAddNewCatalogItemService, AddNewCatalogItemService>();
+            services.AddTransient<ICatalogItemServiec, CatalogItemServiec>();
             services.AddTransient<IImageUploadService, ImageUploadService>();
 
 

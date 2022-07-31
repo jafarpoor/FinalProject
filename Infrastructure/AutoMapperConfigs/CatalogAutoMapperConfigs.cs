@@ -17,6 +17,11 @@ namespace Infrastructure.AutoMapperConfigs
         {
             CreateMap<CatalogType, CatalogTypeDto>().ReverseMap();
 
+
+            CreateMap<CatalogType, CatalogTypeListDto>()
+                .ForMember(dest => dest.SubTypeCount, option =>
+                 option.MapFrom(src => src.ChaildcatalogTypes.Count));
+
             CreateMap<CatalogType, MenuItemDto>()
                     .ForMember(dest => dest.Name, opt =>
                      opt.MapFrom(src => src.TypeName))
@@ -32,6 +37,14 @@ namespace Infrastructure.AutoMapperConfigs
                 opt.MapFrom(src=>src.CatalogItemFeatures))
                 .ForMember(opt=>opt.Images , opt=>
                 opt.MapFrom(src=>src.CatalogItemImages)).ReverseMap();
+
+            CreateMap<CatalogBrand, CatalogBrandDto>()
+                .ForMember(p=>p.Brand , opt=>opt.MapFrom(src=>src.BrandName))
+                .ReverseMap();
+
+            CreateMap<CatalogType, CatalogTypeDto>()
+                .ForMember(p=>p.TypeName , opt=>opt.MapFrom(src=>src.TypeName))
+                .ReverseMap();
 
 
         }

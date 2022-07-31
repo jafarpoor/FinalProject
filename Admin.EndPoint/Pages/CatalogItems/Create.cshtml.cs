@@ -39,7 +39,7 @@ namespace Admin.EndPoint.Pages.CatalogItems
         public void OnGet()
         {
             Categories = new SelectList(catalogItemService.GetCatalogType(), "Id", "Type");
-            Brands = new SelectList(catalogItemService.GetBrand(), "Id", "Type");
+            Brands = new SelectList(catalogItemService.GetBrand(), "Id", "Brand");
         }
 
         public JsonResult OnPost()

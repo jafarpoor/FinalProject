@@ -1,4 +1,5 @@
-﻿using Application.Interfaces.Catalogs.Dto;
+﻿using Application.Dtos;
+using Application.Interfaces.Catalogs.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,6 @@ namespace Application.Interfaces.Catalogs
     {
         List<CatalogBrandDto> GetBrand();
         List<ListCatalogTypeDto> GetCatalogType();
+        PaginatedItemsDto<CatalogItemListItemDto> GetCatalogItemList(int Page , int PageSize);
     }
 }

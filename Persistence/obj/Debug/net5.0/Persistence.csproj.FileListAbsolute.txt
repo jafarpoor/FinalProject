@@ -1,3 +1,8 @@
+F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
 F:\FinalProject\Persistence\bin\Debug\net5.0\Persistence.deps.json
 F:\FinalProject\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.json
 F:\FinalProject\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.dev.json
@@ -10,11 +15,7 @@ F:\FinalProject\Persistence\bin\Debug\net5.0\Domain.dll
 F:\FinalProject\Persistence\bin\Debug\net5.0\Application.pdb
 F:\FinalProject\Persistence\bin\Debug\net5.0\Domain.pdb
 F:\FinalProject\Persistence\bin\Debug\net5.0\Common.pdb
-F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
-F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
-F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
-F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
-F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
 F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.dll
 F:\FinalProject\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.pdb

@@ -1,8 +1,12 @@
 using Admin.EndPoint.AutoMapperConfigs;
+using Application.Interfaces.Catalogs;
 using Application.Interfaces.Contexts;
 using Application.Services.GetMenuItem;
+using Application.Services.GetMenuItem.GetCatalogItemPLP;
+using Infrastructure.Api.ImageServer;
 using Infrastructure.AutoMapperConfigs;
 using Infrastructure.IdentityConfigs;
+using Infrastructure.UriComposer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -36,6 +40,10 @@ namespace WebSite.EndPoint
             services.AddTransient<IDataBaseContext, DataBaseContext>();
             services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(connection));
             services.AddTransient<IGetMenuItemService, GetMenuItemService>();
+            services.AddTransient<IImageUploadService, ImageUploadService>();
+            services.AddTransient<IUriComposerService, UriComposerService>();
+            services.AddTransient<IGetCatalogItemPLPServiec, GetCatalogItemPLPServie>();
+      
             services.AddAutoMapper(typeof(CatalogAutoMapperConfigs));
             services.AddIdentityService(Configuration);
             services.AddAuthorization();
