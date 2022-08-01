@@ -1,6 +1,7 @@
 using Admin.EndPoint.AutoMapperConfigs;
 using Application.Interfaces.Catalogs;
 using Application.Interfaces.Contexts;
+using Application.Services.Catalogs.GetCatalogItemsPDP;
 using Application.Services.GetMenuItem;
 using Application.Services.GetMenuItem.GetCatalogItemPLP;
 using Infrastructure.Api.ImageServer;
@@ -34,7 +35,7 @@ namespace WebSite.EndPoint
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
             #region  Connection String
             string connection = Configuration["ConnectionString:SqlServer"];
             services.AddTransient<IDataBaseContext, DataBaseContext>();
@@ -43,7 +44,7 @@ namespace WebSite.EndPoint
             services.AddTransient<IImageUploadService, ImageUploadService>();
             services.AddTransient<IUriComposerService, UriComposerService>();
             services.AddTransient<IGetCatalogItemPLPServiec, GetCatalogItemPLPServie>();
-      
+            services.AddTransient<IGetCatalogItemPDPService, GetCatalogItemPDPService>();
             services.AddAutoMapper(typeof(CatalogAutoMapperConfigs));
             services.AddIdentityService(Configuration);
             services.AddAuthorization();
