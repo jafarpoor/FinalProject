@@ -1,4 +1,5 @@
-﻿using Domain.Catalogs;
+﻿using Domain.Baskets;
+using Domain.Catalogs;
 using Domain.Users;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -16,6 +17,9 @@ namespace Application.Interfaces.Contexts
          DbSet<CatalogBrand> catalogBrands { get; set; }
         public DbSet<CatalogItemImage> catalogItemImages { get; set; }
         public DbSet<CatalogItemFeature> catalogItemFeatures { get; set; }
+
+        public DbSet<Basket> baskets { get; set; }
+        public DbSet<BasketItem> basketItems { get; set; }
         int SaveChanges();
         int SaveChanges(bool acceptAllChangesOnSuccess);
 

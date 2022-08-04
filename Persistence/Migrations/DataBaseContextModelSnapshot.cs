@@ -19,6 +19,81 @@ namespace Persistence.Migrations
                 .HasAnnotation("ProductVersion", "5.0.4")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Domain.Baskets.Basket", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("BuyerId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("InsertTime")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 8, 4, 22, 38, 15, 85, DateTimeKind.Local).AddTicks(2172));
+
+                    b.Property<bool>("IsRemoved")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<DateTime?>("RemoveTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("baskets");
+                });
+
+            modelBuilder.Entity("Domain.Baskets.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BasketId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CatalogItemId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("InsertTime")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 8, 4, 22, 38, 15, 99, DateTimeKind.Local).AddTicks(9580));
+
+                    b.Property<bool>("IsRemoved")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("RemoveTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UnitPrice")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BasketId");
+
+                    b.HasIndex("CatalogItemId");
+
+                    b.ToTable("basketItems");
+                });
+
             modelBuilder.Entity("Domain.Catalogs.CatalogBrand", b =>
                 {
                     b.Property<int>("Id")
@@ -33,7 +108,7 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("InsertTime")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 211, DateTimeKind.Local).AddTicks(144));
+                        .HasDefaultValue(new DateTime(2022, 8, 4, 22, 38, 15, 100, DateTimeKind.Local).AddTicks(2585));
 
                     b.Property<bool>("IsRemoved")
                         .ValueGeneratedOnAdd()
@@ -105,7 +180,7 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("InsertTime")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 224, DateTimeKind.Local).AddTicks(8648));
+                        .HasDefaultValue(new DateTime(2022, 8, 4, 22, 38, 15, 100, DateTimeKind.Local).AddTicks(5010));
 
                     b.Property<bool>("IsRemoved")
                         .ValueGeneratedOnAdd()
@@ -158,7 +233,7 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("InsertTime")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 225, DateTimeKind.Local).AddTicks(2497));
+                        .HasDefaultValue(new DateTime(2022, 8, 4, 22, 38, 15, 100, DateTimeKind.Local).AddTicks(8766));
 
                     b.Property<bool>("IsRemoved")
                         .ValueGeneratedOnAdd()
@@ -200,7 +275,7 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("InsertTime")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 225, DateTimeKind.Local).AddTicks(4518));
+                        .HasDefaultValue(new DateTime(2022, 8, 4, 22, 38, 15, 101, DateTimeKind.Local).AddTicks(719));
 
                     b.Property<bool>("IsRemoved")
                         .ValueGeneratedOnAdd()
@@ -233,7 +308,7 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("InsertTime")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 7, 29, 16, 4, 33, 225, DateTimeKind.Local).AddTicks(6807));
+                        .HasDefaultValue(new DateTime(2022, 8, 4, 22, 38, 15, 101, DateTimeKind.Local).AddTicks(2774));
 
                     b.Property<bool>("IsRemoved")
                         .ValueGeneratedOnAdd()
@@ -292,6 +367,23 @@ namespace Persistence.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Domain.Baskets.BasketItem", b =>
+                {
+                    b.HasOne("Domain.Baskets.Basket", null)
+                        .WithMany("Items")
+                        .HasForeignKey("BasketId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Catalogs.CatalogItem", "CatalogItem")
+                        .WithMany()
+                        .HasForeignKey("CatalogItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CatalogItem");
+                });
+
             modelBuilder.Entity("Domain.Catalogs.CatalogItem", b =>
                 {
                     b.HasOne("Domain.Catalogs.CatalogBrand", "CatalogBrand")
@@ -336,6 +428,11 @@ namespace Persistence.Migrations
                         .HasForeignKey("ParentCatalogTypeId");
 
                     b.Navigation("ParentCatalogType");
+                });
+
+            modelBuilder.Entity("Domain.Baskets.Basket", b =>
+                {
+                    b.Navigation("Items");
                 });
 
             modelBuilder.Entity("Domain.Catalogs.CatalogItem", b =>

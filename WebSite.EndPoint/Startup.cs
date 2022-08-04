@@ -1,4 +1,5 @@
 using Admin.EndPoint.AutoMapperConfigs;
+using Application.Interfaces.Baskets;
 using Application.Interfaces.Catalogs;
 using Application.Interfaces.Contexts;
 using Application.Services.Catalogs.GetCatalogItemsPDP;
@@ -45,6 +46,7 @@ namespace WebSite.EndPoint
             services.AddTransient<IUriComposerService, UriComposerService>();
             services.AddTransient<IGetCatalogItemPLPServiec, GetCatalogItemPLPServie>();
             services.AddTransient<IGetCatalogItemPDPService, GetCatalogItemPDPService>();
+            services.AddTransient<IBasketService, IBasketService>();
             services.AddAutoMapper(typeof(CatalogAutoMapperConfigs));
             services.AddIdentityService(Configuration);
             services.AddAuthorization();

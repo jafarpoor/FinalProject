@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces.Contexts;
 using Domain.Attributes;
+using Domain.Baskets;
 using Domain.Catalogs;
 using Domain.Users;
 using Microsoft.EntityFrameworkCore;
@@ -26,6 +27,9 @@ namespace Persistence.Contexts
         public DbSet<CatalogBrand> catalogBrands { get; set; }
         public DbSet<CatalogItemImage> catalogItemImages { get; set; }
         public DbSet<CatalogItemFeature> catalogItemFeatures { get; set; }
+
+        public DbSet<Basket> baskets { get; set; }
+        public DbSet<BasketItem> basketItems { get; set; }
         protected   override void OnModelCreating(ModelBuilder builder)
         {
            
