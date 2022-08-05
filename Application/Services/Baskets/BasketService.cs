@@ -74,5 +74,22 @@ namespace Application.Services.Baskets
             };
 
         }
+
+        public bool RemoveBasketItem(int ItemId)
+        {
+            var result = dataBaseContxt.basketItems.SingleOrDefault(p => p.Id == ItemId);
+            dataBaseContxt.basketItems.Remove(result);
+            dataBaseContxt.SaveChanges();
+            return true;
+        }
+
+        public bool SetQuantities(int itemId, int quantity)
+        {
+            var Result = dataBaseContxt.basketItems.SingleOrDefault(p => p.Id == itemId);
+            Result.SetQuantity(quantity);
+            dataBaseContxt.SaveChanges();
+            return true;
+
+;        }
     }
 }

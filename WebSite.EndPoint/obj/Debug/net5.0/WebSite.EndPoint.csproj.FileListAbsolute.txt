@@ -1131,3 +1131,4 @@ F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Basket\Index.cshtml.g.cs

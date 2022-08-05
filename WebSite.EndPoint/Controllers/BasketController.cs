@@ -62,5 +62,18 @@ namespace WebSite.EndPoint.Controllers
             cookeoptions.Expires = DateTime.Today.AddYears(2);
             Response.Cookies.Append(basketCookieName , UserId, cookeoptions);
         }
+
+        [HttpPost]
+        public IActionResult RemoveItemFromBasket(int ItemId)
+        {
+            basketService.RemoveBasketItem(ItemId);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult setQuantity(int basketItemId, int quantity)
+        {
+            return Json(basketService.SetQuantities(basketItemId, quantity));
+        }
     }
 }
