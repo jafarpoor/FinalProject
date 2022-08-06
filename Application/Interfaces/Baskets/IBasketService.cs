@@ -14,5 +14,6 @@ namespace Application.Interfaces.Baskets
 
         bool RemoveBasketItem(int ItemId);
         bool SetQuantities(int itemId, int quantity);
+        BasketDto GetBasketForUser(string UserId);
     }
 }

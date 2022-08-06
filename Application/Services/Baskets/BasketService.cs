@@ -91,5 +91,34 @@ namespace Application.Services.Baskets
             return true;
 
 ;        }
+
+        public BasketDto GetBasketForUser(string UserId)
+        {
+            var basket = dataBaseContxt.baskets
+                           .Include(p => p.Items)
+                           .ThenInclude(p => p.CatalogItem)
+                           .ThenInclude(p => p.CatalogItemImages)
+                           .SingleOrDefault(p => p.BuyerId == UserId);
+
+            if (basket == null)
+            {
+                return null;
+            }
+            return new BasketDto
+            {
+                BuyerId = UserId,
+                Id = basket.Id,
+                Items = basket.Items.Select(p => new BasketItemDto
+                {
+                    CatalogItemid = p.CatalogItemId,
+                    CatalogName = p.CatalogItem.Name,
+                    Quantity = p.Quantity,
+                    UnitPrice = p.UnitPrice,
+                    Id = p.Id,
+                    ImageUrl = uriComposerService.ComposeImageUri(p?.CatalogItem?.CatalogItemImages?.FirstOrDefault().Src ?? "")
+
+                }).ToList()
+            };
+        }
     }
 }

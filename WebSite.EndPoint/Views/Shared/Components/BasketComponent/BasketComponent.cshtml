@@ -1,0 +1,75 @@
+﻿@using Application.Dtos
+@model BasketDto;
+@{
+    Layout = null;
+}
+
+<div class="user-item cart-list">
+    <a href="#">
+        <i class="fal fa-shopping-basket"></i>
+
+        @if (Model != null)
+        {
+            <span class="bag-items-number">@Model.Items.Count</span>
+        }
+        else
+        {
+            <span class="bag-items-number">0</span>
+        }
+
+    </a>
+    <ul>
+        <li class="cart-items">
+            <ul class="do-nice-scroll">
+                @if (Model != null)
+                    foreach (var item in Model.Items)
+                    {
+                        <li class="cart-item">
+                            <span class="d-flex align-items-center mb-2">
+                                <a href="#">
+                                    <img src="@item.ImageUrl" alt="">
+                                </a>
+                                <span>
+                                    <a href="#">
+                                        <span class="title-item">
+                                            @item.CatalogName
+                                        </span>
+                                    </a>
+                                    <span class="color d-flex align-items-center">
+                                        تعداد:
+                                        <span>@item.Quantity</span>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="price"> @item.UnitPrice.ToString("n0") تومان</span>
+                            <form asp-action="RemoveItemFromBasket" asp-controller="Basket" method="post">
+                                <input type="hidden" name="ItemId" value="@item.Id" />
+                                <button class="remove-item">
+                                    <i class="far fa-trash-alt"></i>
+                                </button>
+
+                            </form>
+                        </li>
+                    }
+            </ul>
+        </li>
+        <li class="cart-footer">
+            <span class="d-block text-center mb-3">
+                @if (Model != null)
+                {
+                    <p>
+                        مبلغ کل:
+                        <span class="total">@Model.Total().ToString("n0")</span>
+                    </p>
+                }
+
+            </span>
+            <span class="d-block text-center px-2">
+                <a href="~/basket" class="btn-cart">
+                    مشاهده سبد خرید
+                    <i class="mi mi-ShoppingCart"></i>
+                </a>
+            </span>
+        </li>
+    </ul>
+</div>

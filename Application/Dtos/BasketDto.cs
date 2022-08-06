@@ -11,5 +11,13 @@ namespace Application.Dtos
         public int Id { get; set; }
         public string BuyerId { get; set; }
         public List<BasketItemDto> Items { get; set; } = new List<BasketItemDto>();
+        public int Total()
+        {
+            if(Items.Count>0)
+            {
+                return Items.Sum(p => p.Quantity * p.UnitPrice);
+            }
+            return 0;
+        }
     }
 }
