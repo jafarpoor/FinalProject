@@ -29,10 +29,9 @@ namespace WebSite.EndPoint.Models.ViewComponents
             }
             else
             {
-                string basketCookieName = "BasketId";
-                if (Request.Cookies.ContainsKey("basketCookieName"))
+                if (Request.Cookies.ContainsKey(ClaimUtility.basketCookieName))
                 {
-                    var buyerId = Request.Cookies[basketCookieName];
+                    var buyerId = Request.Cookies[ClaimUtility.basketCookieName];
                     basket = basketService.GetBasketForUser(buyerId);
                 }
             }

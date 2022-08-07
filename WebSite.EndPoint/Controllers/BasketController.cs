@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebSite.EndPoint.Utilities;
 
 namespace WebSite.EndPoint.Controllers
 {
@@ -39,7 +40,8 @@ namespace WebSite.EndPoint.Controllers
         {
             if (signInManager.IsSignedIn(User))
             {
-              return  basketService.GetOrCreateBasketForUser(User.Identity.Name);
+                UserId = ClaimUtility.GetUserId(User);
+              return  basketService.GetOrCreateBasketForUser(UserId);
             }
             else
             {
@@ -50,17 +52,16 @@ namespace WebSite.EndPoint.Controllers
 
         private void SetCookiesForBasket()
         {
-            string basketCookieName = "BasketId";
-            if (Request.Cookies.ContainsKey(basketCookieName))
+            if (Request.Cookies.ContainsKey(ClaimUtility.basketCookieName))
             {
-                UserId = Request.Cookies[basketCookieName];
+                UserId = Request.Cookies[ClaimUtility.basketCookieName];
             }
             if (UserId != null)
                 return;
             UserId = Guid.NewGuid().ToString();
             var cookeoptions = new CookieOptions { IsEssential = true };
             cookeoptions.Expires = DateTime.Today.AddYears(2);
-            Response.Cookies.Append(basketCookieName , UserId, cookeoptions);
+            Response.Cookies.Append(ClaimUtility.basketCookieName, UserId, cookeoptions);
         }
 
         [HttpPost]

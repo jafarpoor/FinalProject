@@ -120,5 +120,27 @@ namespace Application.Services.Baskets
                 }).ToList()
             };
         }
+
+        public void TransferBasket(string anonymousId, string UserId)
+        {
+            var BasketResult = dataBaseContxt.baskets.SingleOrDefault(p => p.BuyerId == anonymousId);
+            if (BasketResult == null)
+                return ;
+            var UserResult = dataBaseContxt.baskets.SingleOrDefault(p => p.BuyerId == UserId);
+
+            if(UserResult == null)
+            {
+                 UserResult = new Basket(UserId);
+                dataBaseContxt.baskets.Add(UserResult);
+            }
+
+            foreach (var item in BasketResult.Items)
+            {
+                UserResult.AddItem(item.CatalogItemId ,item.Quantity , item.UnitPrice);
+
+            }
+            dataBaseContxt.baskets.Remove(BasketResult);
+            dataBaseContxt.SaveChanges();
+        }
     }
 }

@@ -8,6 +8,7 @@ namespace WebSite.EndPoint.Utilities
 {
     public class ClaimUtility
     {
+        public static string basketCookieName = "BasketId";
         public static string GetUserId(ClaimsPrincipal claims)
         {
             var claimsIdentity = claims.Identity as ClaimsPrincipal;

@@ -1,4 +1,5 @@
-﻿using Application.Services;
+﻿using Application.Interfaces.Baskets;
+using Application.Services;
 using Domain.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -10,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebSite.EndPoint.Models.ViewModels.Register;
 using WebSite.EndPoint.Models.ViewModels.User;
+using WebSite.EndPoint.Utilities;
 
 namespace WebSite.EndPoint.Controllers
 {
@@ -20,13 +22,18 @@ namespace WebSite.EndPoint.Controllers
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly EmailService _emailService;
         private readonly SmsService _smsService;
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager , RoleManager<IdentityRole> roleManager )
+        private readonly IBasketService _basket;
+        public AccountController(UserManager<User> userManager,
+                                 SignInManager<User> signInManager , 
+                                 RoleManager<IdentityRole> roleManager ,
+                                 IBasketService basket)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
             _emailService = new EmailService();
             _smsService = new SmsService();
+            _basket = basket;
         }
 
         [Authorize]
@@ -89,6 +96,9 @@ namespace WebSite.EndPoint.Controllers
 
                 string body = $"لطفا برای فعال حساب کاربری بر روی لینک زیر کلیک کنید!  <br/> <a href={Link}> Link </a>";
                 _emailService.Execute(newUser.Email, body, "فعال سازی حساب کاربری باگتو");
+
+                var user = _userManager.FindByNameAsync(newUser.Email).Result;
+                TransferBasketForuser(user.Id);
                 return RedirectToAction("DisplayEmail");
             }
 
@@ -141,6 +151,7 @@ namespace WebSite.EndPoint.Controllers
 
             if (result.Succeeded)
             {
+                TransferBasketForuser(user.Id);
                 return Redirect(model.ReturnUrl);
             }
             if (result.RequiresTwoFactor)
@@ -411,6 +422,17 @@ namespace WebSite.EndPoint.Controllers
         public string VerifySuccess()
         {
             return "با موفقیت وارد شدید";
+        }
+
+
+        private void TransferBasketForuser(string userId)
+        {
+            if (Request.Cookies.ContainsKey(ClaimUtility.basketCookieName))
+            {
+                var anonymousId = Request.Cookies[ClaimUtility.basketCookieName];
+                _basket.TransferBasket(anonymousId, userId);
+                Response.Cookies.Delete(ClaimUtility.basketCookieName);
+            }
         }
     }
 }
