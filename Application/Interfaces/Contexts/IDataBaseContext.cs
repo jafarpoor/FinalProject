@@ -17,9 +17,9 @@ namespace Application.Interfaces.Contexts
          DbSet<CatalogBrand> catalogBrands { get; set; }
         public DbSet<CatalogItemImage> catalogItemImages { get; set; }
         public DbSet<CatalogItemFeature> catalogItemFeatures { get; set; }
-
         public DbSet<Basket> baskets { get; set; }
         public DbSet<BasketItem> basketItems { get; set; }
+        public DbSet<UserAddress> userAddresses { get; set; }
         int SaveChanges();
         int SaveChanges(bool acceptAllChangesOnSuccess);
 

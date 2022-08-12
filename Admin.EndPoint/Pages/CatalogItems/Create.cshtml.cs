@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Extensions.Logging;
 
 namespace Admin.EndPoint.Pages.CatalogItems
 {
@@ -19,14 +20,16 @@ namespace Admin.EndPoint.Pages.CatalogItems
         private readonly IAddNewCatalogItemService addNewCatalogItemService;
         private readonly ICatalogItemServiec catalogItemService;
         private readonly IImageUploadService imageUploadService;
-
+        private readonly ILogger<CreateModel> logger;
         public CreateModel(IAddNewCatalogItemService addNewCatalogItemService
                          , ICatalogItemServiec catalogItemService
-                         , IImageUploadService imageUploadService)
+                         , IImageUploadService imageUploadService
+                         , ILogger<CreateModel> logger)
         {
             this.addNewCatalogItemService = addNewCatalogItemService;
             this.catalogItemService = catalogItemService;
             this.imageUploadService = imageUploadService;
+            this.logger = logger;
         }
 
         public SelectList Categories { get; set; }
@@ -68,6 +71,7 @@ namespace Admin.EndPoint.Pages.CatalogItems
             }
             Data.Images = images;
             var resultService = addNewCatalogItemService.Excute(Data);
+            logger.LogInformation("New Prsern {Person}", resultService);
             return new JsonResult(resultService);
         }
 

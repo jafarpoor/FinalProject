@@ -8,6 +8,7 @@ using Application.Services.Catalogs;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
 
 namespace Admin.EndPoint.Pages.Catalogs
 {
@@ -15,11 +16,12 @@ namespace Admin.EndPoint.Pages.Catalogs
     {
         private readonly ICatalogTypeServiec catalogTypeService;
         private readonly IMapper mapper;
-
-        public CreateModel(ICatalogTypeServiec catalogTypeService, IMapper mapper)
+        private readonly ILogger<CreateModel> logger;
+        public CreateModel(ICatalogTypeServiec catalogTypeService, IMapper mapper , ILogger<CreateModel> logger)
         {
             this.catalogTypeService = catalogTypeService;
             this.mapper = mapper;
+            this.logger = logger;
         }
 
         [BindProperty]
@@ -42,6 +44,7 @@ namespace Admin.EndPoint.Pages.Catalogs
             var result = catalogTypeService.Add(model);
             if (result.IsSuccess)
             {
+                logger.LogInformation("New Prsern {Person}", result);
                 return RedirectToPage("index", new { parentId = CatalogType.ParentCatalogTypeId });
             }
             Message = result.Message;

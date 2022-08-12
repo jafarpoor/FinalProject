@@ -1133,3 +1133,7 @@ F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Microsoft.Extensions.Dependenc
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Basket\Index.cshtml.g.cs
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\Components\BasketComponent\BasketComponent.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Nlog.config
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\NLog.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\NLog.Web.AspNetCore.dll

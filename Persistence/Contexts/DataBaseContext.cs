@@ -30,6 +30,8 @@ namespace Persistence.Contexts
 
         public DbSet<Basket> baskets { get; set; }
         public DbSet<BasketItem> basketItems { get; set; }
+
+        public DbSet<UserAddress>  userAddresses { get; set; }
         protected   override void OnModelCreating(ModelBuilder builder)
         {
            

@@ -7,6 +7,7 @@ using Application.Interfaces.Catalogs;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
 
 namespace Admin.EndPoint.Pages.Catalogs
 {
@@ -14,11 +15,12 @@ namespace Admin.EndPoint.Pages.Catalogs
     {
         private readonly ICatalogTypeServiec catalogTypeService;
         private readonly IMapper mapper;
-
-        public DeleteModel(ICatalogTypeServiec catalogTypeService, IMapper mapper)
+        private readonly ILogger<DeleteModel> logger;
+        public DeleteModel(ICatalogTypeServiec catalogTypeService, IMapper mapper , ILogger<DeleteModel> logger)
         {
             this.catalogTypeService = catalogTypeService;
             this.mapper = mapper;
+            this.logger = logger;
         }
 
 
@@ -40,6 +42,7 @@ namespace Admin.EndPoint.Pages.Catalogs
             Message = result.Message;
             if (result.IsSuccess)
             {
+                logger.LogInformation("New Prsern {Person}", result);
                 return RedirectToPage("index");
             }
             return Page();

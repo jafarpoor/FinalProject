@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zbjJJWIGTJwC6CwRDuvRYWGhP9QnNaPyhwjnmL9/z1oV0q6dB+kZnby1bAvoCJqxKTBaBAQWZd4TQ6n8JGsEfw==",
+  "dgSpecHash": "QwWLBLiESF0PH+blXJu1DRm9lg0kEQJAxEIGaLNSIw5qKsu9g/SlKgmFfpdud4jZYEyKKRGrQD7m/JaBu/mGqQ==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\Admin.EndPoint\\Admin.EndPoint.csproj",
   "expectedPackageFiles": [
@@ -67,6 +67,9 @@
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\nlog\\5.0.1\\nlog.5.0.1.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\nlog.extensions.logging\\5.0.1\\nlog.extensions.logging.5.0.1.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\nlog.web.aspnetcore\\5.1.0\\nlog.web.aspnetcore.5.1.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",

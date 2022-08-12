@@ -564,3 +564,7 @@ F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp
 F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 F:\FinalProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.MvcApplicationPartsAssemblyInfo.cs
+F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\Nlog.config
+F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\NLog.dll
+F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\NLog.Web.AspNetCore.dll

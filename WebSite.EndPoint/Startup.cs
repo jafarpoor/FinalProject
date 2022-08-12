@@ -2,10 +2,12 @@ using Admin.EndPoint.AutoMapperConfigs;
 using Application.Interfaces.Baskets;
 using Application.Interfaces.Catalogs;
 using Application.Interfaces.Contexts;
+using Application.Interfaces.Users;
 using Application.Services.Baskets;
 using Application.Services.Catalogs.GetCatalogItemsPDP;
 using Application.Services.GetMenuItem;
 using Application.Services.GetMenuItem.GetCatalogItemPLP;
+using Application.Services.Users;
 using Infrastructure.Api.ImageServer;
 using Infrastructure.AutoMapperConfigs;
 using Infrastructure.IdentityConfigs;
@@ -48,7 +50,7 @@ namespace WebSite.EndPoint
             services.AddTransient<IGetCatalogItemPLPServiec, GetCatalogItemPLPServie>();
             services.AddTransient<IGetCatalogItemPDPService, GetCatalogItemPDPService>();
             services.AddTransient<IBasketService, BasketService>();
-            services.AddAutoMapper(typeof(CatalogAutoMapperConfigs));
+            services.AddTransient<IUserAddressService, UserAddressService>();
             services.AddIdentityService(Configuration);
             services.AddAuthorization();
             services.ConfigureApplicationCookie(option =>
@@ -58,6 +60,12 @@ namespace WebSite.EndPoint
                 option.AccessDeniedPath = "/Account/AccessDenied";
                 option.SlidingExpiration = true;
             });
+
+
+            //mappper
+            services.AddAutoMapper(typeof(CatalogAutoMapperConfigs));
+            services.AddAutoMapper(typeof(UserMapperConfigs));
+
             #endregion
         }
 
@@ -84,6 +92,10 @@ namespace WebSite.EndPoint
            
             app.UseEndpoints(endpoints =>
             {
+                 endpoints.MapControllerRoute(
+                      name: "areas",
+                     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
