@@ -1,0 +1,66 @@
+﻿@using Application.Dtos;
+@model AddUserAddressDto;
+
+@{
+    ViewData["Title"] = "افزودن آدرس جدید";
+    Layout = "~/Views/Shared/_LayoutCustomerPanel.cshtml";
+}
+
+<div class="checkout-section shadow-around">
+    <div class="checkout-section-content">
+        <form method="post" asp-action="AddNewAddress" asp-controller="Address" asp-area="customers" data-select2-id="select2-data-18-nzre">
+            <div class="row" data-select2-id="select2-data-17-414m">
+                <div class="col-lg-6 mb-3">
+                    <div class="text-sm text-muted mb-1">استان:</div>
+                    <div class="text-dark font-weight-bold">
+                        <div class="form-element-row mb-0">
+                            <input type="text" class="input-element" asp-for="State">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-3">
+                    <div class="text-sm text-muted mb-1">شهر:</div>
+                    <div class="text-dark font-weight-bold">
+                        <div class="form-element-row mb-0">
+                            <input type="text" class="input-element" asp-for="City">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 mb-3">
+                    <div class="text-sm text-muted mb-1">کد پستی:</div>
+                    <div class="text-dark font-weight-bold">
+                        <div class="form-element-row mb-0">
+                            <input type="text" class="input-element" asp-for="ZipCode">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-3">
+                    <div class="text-sm text-muted mb-1"> نام گیرنده:</div>
+                    <div class="text-dark font-weight-bold">
+                        <div class="form-element-row mb-0">
+                            <input type="text" class="input-element" asp-for="ReciverName">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="text-sm text-muted mb-1">آدرس کامل:</div>
+                    <div class="text-dark font-weight-bold">
+                        <div class="form-element-row mb-0">
+                            <textarea asp-for="PostalAddress" cols="30" rows="10" class="input-element"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <button type="submit" class="btn btn-primary">ذخیره تغییرات <i class="fad fa-money-check-edit"></i></button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+

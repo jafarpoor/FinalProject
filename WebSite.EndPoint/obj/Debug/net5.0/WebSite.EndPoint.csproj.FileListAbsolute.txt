@@ -1137,3 +1137,9 @@ F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Nlog.config
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\NLog.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\NLog.Extensions.Logging.dll
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Areas\Customers\Views\Shared\Error.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Areas\Customers\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Areas\Customers\Views\_ViewImports.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Shared\_LayoutCustomerPanel.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Areas\Customers\Views\Address\Index.cshtml.g.cs
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Areas\Customers\Views\Address\AddNewAdress.cshtml.g.cs

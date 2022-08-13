@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Application.Dtos.UserAddressDto>
+@{
+    ViewData["Title"] = "آدرس ها";
+    Layout = "~/Views/Shared/_LayoutCustomerPanel.cshtml";
+}
+
+<div class="checkout-section shadow-around">
+    <div class="checkout-section-content">
+        <div class="row mx-0">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6 mb-3">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label address-select" for="customRadio2">
+                            <span class="head-address-select">به این آدرس ارسال شود</span>
+                            <span> @item.PostalAddress </span>
+                            <span>
+                                <i class="fa fa-user"></i>
+                                @item.ReciverName
+                            </span>
+                            <a href="#" class="link--with-border-bottom edit-address-btn" data-toggle="modal" data-target="#editAddressModal">
+                                ویرایش
+                                <i class="fa fa-edit"></i>
+                            </a>
+                        </label>
+                    </div>
+                </div>
+            }
+
+
+
+
+            <div class="col-xl-3 col-lg-4 col-sm-6 mb-3">
+                <div class="custom-control custom-radio">
+                    <a class="add-address" asp-action="AddNewAddress" asp-controller="Address"
+                       asp-area="Customers">
+                        <i class="fa fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
