@@ -2,6 +2,7 @@
 using Domain.Attributes;
 using Domain.Baskets;
 using Domain.Catalogs;
+using Domain.Order;
 using Domain.Users;
 using Microsoft.EntityFrameworkCore;
 using Persistence.EntityConfigurations;
@@ -32,6 +33,8 @@ namespace Persistence.Contexts
         public DbSet<BasketItem> basketItems { get; set; }
 
         public DbSet<UserAddress>  userAddresses { get; set; }
+        public DbSet<Order> orders { get; set; }
+        public DbSet<OrderItem> orderItems { get; set; }
         protected   override void OnModelCreating(ModelBuilder builder)
         {
            
@@ -56,6 +59,9 @@ namespace Persistence.Contexts
             builder.ApplyConfiguration(new CatalogBrandEntityConfigurations());
 
             DataBaseContextSeed.CatalogSeed(builder);
+
+            builder.Entity<Order>().OwnsOne(p => p.Address);
+
             base.OnModelCreating(builder);
         }
 

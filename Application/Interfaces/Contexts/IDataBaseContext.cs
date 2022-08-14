@@ -1,5 +1,6 @@
 ﻿using Domain.Baskets;
 using Domain.Catalogs;
+using Domain.Order;
 using Domain.Users;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -20,6 +21,8 @@ namespace Application.Interfaces.Contexts
         public DbSet<Basket> baskets { get; set; }
         public DbSet<BasketItem> basketItems { get; set; }
         public DbSet<UserAddress> userAddresses { get; set; }
+        public DbSet<Order> orders { get; set; }
+        public DbSet<OrderItem> orderItems { get; set; }
         int SaveChanges();
         int SaveChanges(bool acceptAllChangesOnSuccess);
 

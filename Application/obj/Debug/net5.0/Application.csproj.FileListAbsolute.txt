@@ -14,3 +14,4 @@ F:\FinalProject\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInput
 F:\FinalProject\Application\obj\Debug\net5.0\Application.dll
 F:\FinalProject\Application\obj\Debug\net5.0\ref\Application.dll
 F:\FinalProject\Application\obj\Debug\net5.0\Application.pdb
+F:\FinalProject\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
