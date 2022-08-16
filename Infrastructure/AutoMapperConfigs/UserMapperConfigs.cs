@@ -1,5 +1,6 @@
 ﻿using Application.Dtos;
 using AutoMapper;
+using Domain.Order;
 using Domain.Users;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ namespace Infrastructure.AutoMapperConfigs
         {
             CreateMap<UserAddress, UserAddressDto>();
             CreateMap<AddUserAddressDto, UserAddress>();
+            CreateMap<UserAddress, Address>();
         }
     }
 }

@@ -2,11 +2,13 @@ using Admin.EndPoint.AutoMapperConfigs;
 using Application.Interfaces.Baskets;
 using Application.Interfaces.Catalogs;
 using Application.Interfaces.Contexts;
+using Application.Interfaces.Orders;
 using Application.Interfaces.Users;
 using Application.Services.Baskets;
 using Application.Services.Catalogs.GetCatalogItemsPDP;
 using Application.Services.GetMenuItem;
 using Application.Services.GetMenuItem.GetCatalogItemPLP;
+using Application.Services.Orders;
 using Application.Services.Users;
 using Infrastructure.Api.ImageServer;
 using Infrastructure.AutoMapperConfigs;
@@ -51,6 +53,7 @@ namespace WebSite.EndPoint
             services.AddTransient<IGetCatalogItemPDPService, GetCatalogItemPDPService>();
             services.AddTransient<IBasketService, BasketService>();
             services.AddTransient<IUserAddressService, UserAddressService>();
+            services.AddTransient<IOrderService, OrderService>();
             services.AddIdentityService(Configuration);
             services.AddAuthorization();
             services.ConfigureApplicationCookie(option =>
