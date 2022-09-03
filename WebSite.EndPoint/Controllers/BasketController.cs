@@ -17,7 +17,7 @@ namespace WebSite.EndPoint.Controllers
         private readonly IBasketService basketService;
         private readonly SignInManager<User> signInManager;
         private string UserId = null;
-        public BasketController(IBasketService basketService , SignInManager<User> signInManager)
+        public BasketController(IBasketService basketService , SignInManager<User> signInManager )
         {
             this.basketService = basketService;
             this.signInManager = signInManager;

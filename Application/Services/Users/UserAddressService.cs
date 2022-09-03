@@ -30,7 +30,7 @@ namespace Application.Services.Users
 
         public List<UserAddressDto> GetAddress(string UserId)
         {
-            var result = dataBaseContext.userAddresses.Where(p => p.UserId == UserId).SingleOrDefault();
+            var result = dataBaseContext.userAddresses.Where(p => p.UserId == UserId);
             var resultMapp = mapper.Map<List<UserAddressDto>>(result);
             return resultMapp;
         }

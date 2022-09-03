@@ -1,6 +1,8 @@
 ﻿using Application.Dtos;
 using Application.Interfaces.Users;
+using Domain.Users;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,30 +12,30 @@ using WebSite.EndPoint.Utilities;
 
 namespace WebSite.EndPoint.Areas.Customers.Controllers
 {
+    //[Authorize]
+    [Area("Customers")]
     public class AddressController : Controller
     {
         private readonly IUserAddressService userAddressService;
 
-        public AddressController(IUserAddressService userAddressService)
+        public AddressController(IUserAddressService userAddressService )
         {
             this.userAddressService = userAddressService;
         }
 
-        [Authorize]
-        [Area("Customers")]
         public IActionResult Index()
         {
             var result = userAddressService.GetAddress(ClaimUtility.GetUserId(User));
             return View(result);
         }
 
-        public IActionResult AddNewAdress()
+        public IActionResult AddNewAddress()
         {
             return View(new AddUserAddressDto());
         }
 
         [HttpPost]
-        public IActionResult AddNewAdress(AddUserAddressDto userAddressDto)
+        public IActionResult AddNewAddress(AddUserAddressDto userAddressDto)
         {
             var userId = ClaimUtility.GetUserId(User);
             userAddressDto.UserId = userId;

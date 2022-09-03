@@ -18,20 +18,21 @@ namespace Domain.Users
         public string UserId { get; private set; }
         public string ReciverName { get; private set; }
 
+        public UserAddress(string city, string state,
+            string zipCode, string postalAddress,
+            string userId, string recivername)
+        {
+            this.City = city;
+            State = state;
+            ZipCode = zipCode;
+            PostalAddress = postalAddress;
+            UserId = userId;
+            ReciverName = recivername;
+        }
+
         public UserAddress()
         {
 
-        }
-
-        public UserAddress(string State , string City , string ZipCode , string PostalAddress ,
-                          string UserId , string ReciverName)
-        {
-            this.State = State;
-            this.City = City;
-            this.ZipCode = ZipCode;
-            this.PostalAddress = PostalAddress;
-            this.UserId = UserId;
-            this.ReciverName = ReciverName;
         }
     }
 

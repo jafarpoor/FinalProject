@@ -1,5 +1,7 @@
 ﻿using Application.Dtos;
 using Application.Interfaces.Baskets;
+using Domain.Users;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -15,7 +17,7 @@ namespace WebSite.EndPoint.Models.ViewComponents
         private readonly IBasketService basketService;
         private ClaimsPrincipal userClaimsPrincipal => ViewContext?.HttpContext.User;
 
-      public  BasketComponent(IBasketService basketService)
+      public  BasketComponent(IBasketService basketService )
         {
             this.basketService = basketService;
         }

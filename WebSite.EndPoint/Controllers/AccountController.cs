@@ -8,10 +8,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using WebSite.EndPoint.Models.ViewModels.Register;
 using WebSite.EndPoint.Models.ViewModels.User;
 using WebSite.EndPoint.Utilities;
+using System.IdentityModel.Tokens;
+using Microsoft.IdentityModel.Web;
 
 namespace WebSite.EndPoint.Controllers
 {
@@ -65,7 +68,7 @@ namespace WebSite.EndPoint.Controllers
 
         public IActionResult Register()
         {
-            return View();
+                return View();
         }
 
         [HttpPost]
@@ -77,8 +80,8 @@ namespace WebSite.EndPoint.Controllers
                 return View(model);
             }
 
-            var userRole = _roleManager.FindByNameAsync("Customer").Result;
-
+         //   var userRole = _roleManager.FindByNameAsync("Customer").Result;
+          
             User newUser = new User()
             {
                 Email = model.Email,
@@ -86,16 +89,17 @@ namespace WebSite.EndPoint.Controllers
                 FullName = model.FullName,
                 PhoneNumber = model.PhoneNumber,  
             };
-
             var result = _userManager.CreateAsync(newUser, model.Password).Result;
-            var reultRole = _userManager.AddToRoleAsync(newUser ,userRole.Name).Result;
-            if (result.Succeeded && reultRole.Succeeded)
+           // var reultRole = _userManager.AddToRoleAsync(newUser ,userRole.Name).Result;
+            if (result.Succeeded)
             {
                 var Token = _userManager.GenerateEmailConfirmationTokenAsync(newUser).Result;
-                var Link = Url.Action("ConfirmEmail", "Account", new { userID= newUser.Id ,Token = Token }, protocol: Request.Scheme);
+                var Link = Url.Action("ConfirmEmail", "Account", new { userID = newUser.Id, Token = Token }, protocol: Request.Scheme);
 
                 string body = $"لطفا برای فعال حساب کاربری بر روی لینک زیر کلیک کنید!  <br/> <a href={Link}> Link </a>";
                 _emailService.Execute(newUser.Email, body, "فعال سازی حساب کاربری باگتو");
+
+
 
                 var user = _userManager.FindByNameAsync(newUser.Email).Result;
                 TransferBasketForuser(user.Id);
@@ -175,6 +179,7 @@ namespace WebSite.EndPoint.Controllers
             if (providerUser.Contains("Phone"))
             {
                 var code = _userManager.GenerateTwoFactorTokenAsync(user, "Phone").Result;
+        
                 _smsService.Send(user.PhoneNumber , code);
 
                 twoFactorLoginDto.Provider = "Phone";

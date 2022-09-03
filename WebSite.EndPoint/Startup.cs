@@ -10,13 +10,16 @@ using Application.Services.GetMenuItem;
 using Application.Services.GetMenuItem.GetCatalogItemPLP;
 using Application.Services.Orders;
 using Application.Services.Users;
+using Domain.Users;
 using Infrastructure.Api.ImageServer;
 using Infrastructure.AutoMapperConfigs;
 using Infrastructure.IdentityConfigs;
 using Infrastructure.UriComposer;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,8 +27,10 @@ using Microsoft.Extensions.Hosting;
 using Persistence.Contexts;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using WebSite.EndPoint.Utilities;
 
 namespace WebSite.EndPoint
 {
@@ -41,11 +46,24 @@ namespace WebSite.EndPoint
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.ClaimsIdentity.UserIdClaimType = JwtRegisteredClaimNames.Sub;
+            });
+            //services.AddAuthentication(options =>
+            //{
+            //    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            //    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            //    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            //});
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             #region  Connection String
             string connection = Configuration["ConnectionString:SqlServer"];
             services.AddTransient<IDataBaseContext, DataBaseContext>();
+            services.AddTransient<IIdentityDatabaseContext, IdentityDatabaseContext>();
             services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(connection));
+            services.AddScoped<IUserClaimsPrincipalFactory<User>, AddMyClaims>();
             services.AddTransient<IGetMenuItemService, GetMenuItemService>();
             services.AddTransient<IImageUploadService, ImageUploadService>();
             services.AddTransient<IUriComposerService, UriComposerService>();
