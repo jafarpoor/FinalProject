@@ -18,4 +18,3 @@ F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompil
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
-F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete

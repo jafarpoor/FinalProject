@@ -123,23 +123,25 @@ namespace Application.Services.Baskets
 
         public void TransferBasket(string anonymousId, string UserId)
         {
-            var BasketResult = dataBaseContxt.baskets.SingleOrDefault(p => p.BuyerId == anonymousId);
-            if (BasketResult == null)
-                return ;
-            var UserResult = dataBaseContxt.baskets.SingleOrDefault(p => p.BuyerId == UserId);
+            var anonymousBasket = dataBaseContxt.baskets
+             .Include(p => p.Items)
+             .SingleOrDefault(p => p.BuyerId == anonymousId);
 
-            if(UserResult == null)
+            if (anonymousBasket == null) return;
+
+            var userBasket = dataBaseContxt.baskets.SingleOrDefault(p => p.BuyerId == UserId);
+            if (userBasket == null)
             {
-                 UserResult = new Basket(UserId);
-                dataBaseContxt.baskets.Add(UserResult);
+                userBasket = new Basket(UserId);
+                foreach (var item in anonymousBasket.Items)
+                {
+                    userBasket.AddItem(item.CatalogItemId, item.Quantity, item.UnitPrice);
+                }
+                dataBaseContxt.baskets.Add(userBasket);
             }
 
-            foreach (var item in BasketResult.Items)
-            {
-                UserResult.AddItem(item.CatalogItemId ,item.Quantity , item.UnitPrice);
-
-            }
-            dataBaseContxt.baskets.Remove(BasketResult);
+            dataBaseContxt.baskets.Remove(anonymousBasket);
+          
             dataBaseContxt.SaveChanges();
         }
     }

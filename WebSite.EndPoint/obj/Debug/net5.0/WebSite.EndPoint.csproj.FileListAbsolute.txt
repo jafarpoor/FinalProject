@@ -1144,3 +1144,4 @@ F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\ref\WebSite.EndPoint.dll
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.pdb
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.genruntimeconfig.cache
 F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\microsoft.identitymodel.dll
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Basket\ShippingPayment.cshtml.g.cs

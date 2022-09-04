@@ -1,0 +1,139 @@
+﻿@using  WebSite.EndPoint.Models.ViewModels.Baskets
+@model ShippingPaymentViewModel
+@{
+    ViewData["Title"] = "انتخاب آدرس";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <form asp-action="ShippingPayment" method="post" class="row mb-4">
+        <div class="col-xl-9 col-lg-8 col-md-8 mb-md-0 mb-3">
+            <div class="checkout-section shadow-around">
+                <div class="checkout-step">
+                    <ul>
+                        <li class="active">
+                            <a href="#"><span>سبد خرید</span></a>
+                        </li>
+                        <li class="active">
+                            <span>نحوه ارسال و پرداخت</span>
+                        </li>
+                        <li>
+                            <span>اتمام خرید و ارسال</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="checkout-section-content">
+                    <div class="checkout-section-title">آدرس تحویل سفارش</div>
+                    <div class="row mx-0">
+
+                        @foreach (var item in Model.UserAddresses)
+                        {
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mb-3">
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="Address-@item.Id" name="Address" value="@item.Id" checked class="custom-control-input">
+                                    <label class="custom-control-label address-select" for="Address-@item.Id">
+                                        <span class="head-address-select">به این آدرس ارسال شود</span>
+                                        <span> @item.PostalAddress</span>
+                                        <span>
+                                            <i class="fa fa-user"></i>
+                                            @item.ReciverName
+                                        </span>
+                                        <a href="#" class="link--with-border-bottom edit-address-btn" data-toggle="modal" data-target="#editAddressModal">
+                                            ویرایش
+                                            <i class="fa fa-edit"></i>
+                                        </a>
+                                    </label>
+                                </div>
+                            </div>
+                        }
+
+
+
+
+
+
+
+                        <div class="col-xl-3 col-lg-4 col-sm-6 mb-3">
+                            <div class="custom-control custom-radio">
+                                <a asp-action="AddNewAddress" asp-controller="Address" asp-area="Customers" class="add-address">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkout-section-title">شیوه پرداخت</div>
+                    <div class="payment-selection">
+                        <div class="custom-control custom-radio custom-control-inline mb-3">
+                            <input type="radio" id="OnlinePaymnt" value="OnlinePaymnt" name="PaymentMethod" class="custom-control-input" checked="">
+                            <label class="custom-control-label payment-select" for="OnlinePaymnt">
+                                <span class="d-flex align-items-center">
+                                    <i class="fad fa-credit-card"></i>
+                                    <span>
+                                        <span class="title">پرداخت اینترنتی</span>
+                                        <span class="subtitle">آنلاین با تمامی کارت‌های بانکی</span>
+                                    </span>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline mb-3">
+                            <input type="radio" id="PaymentOnTheSpot" name="PaymentMethod" value="PaymentOnTheSpot" class="custom-control-input">
+                            <label class="custom-control-label payment-select" for="PaymentOnTheSpot">
+                                <span class="d-flex align-items-center">
+                                    <i class="fad fa-map-marker-alt"></i>
+                                    <span>
+                                        <span class="title">پرداخت در محل</span>
+                                        <span class="subtitle">پرداخت درب منزل</span>
+                                    </span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4">
+            <div class="shadow-around pt-3">
+                @*<div class="d-flex justify-content-between px-3 py-2">
+                    <span class="text-muted">قیمت کالاها (@Model.Basket.Items.Count)</span>
+                    <span class="text-muted">
+                        @Model.Basket.TotalWithOutDiescount().ToString("n0")
+                        <span class="text-sm">تومان</span>
+                    </span>
+                </div>*@
+                @*@if (Model.Basket.DiscountAmount > 0)
+                {
+                    <div class="d-flex justify-content-between px-3 py-2">
+                        <span class="text-muted">تخفیف کالاها</span>
+                        <span class="text-danger">
+                            @Model.Basket.DiscountAmount.ToString("n0")
+                            <span class="text-sm">تومان</span>
+                        </span>
+                    </div>
+                }*@
+                <hr>
+                <div class="d-flex justify-content-between px-3 py-2">
+                    <span class="font-weight-bold">جمع</span>
+                    <span class="font-weight-bold">
+                        @Model.Basket.Total().ToString("n0")
+                        <span class="text-sm">تومان</span>
+                    </span>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between px-3 py-2">
+                    <span class="font-weight-bold">مبلغ قابل پرداخت</span>
+                    <span class="font-weight-bold">
+                        @Model.Basket.Total().ToString("n0")
+                        <span class="text-sm">تومان</span>
+                    </span>
+                </div>
+                <div class="d-flex px-3 py-4">
+                    <button type="submit" class="btn btn-danger btn-block py-2">پرداخت و ثبت نهایی سفارش</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
