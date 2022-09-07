@@ -40,7 +40,11 @@ namespace Domain.Order
         {
 
         }
-
+        public int TotalPrice()
+        {
+            int totalPrice = _orderItems.Sum(p => p.UnitPrice * p.Units);
+            return totalPrice;
+        }
         /// <summary>
         /// پرداخت انجام شد
         /// </summary>

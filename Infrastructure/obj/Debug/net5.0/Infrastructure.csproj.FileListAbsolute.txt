@@ -15,6 +15,7 @@ F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildE
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 F:\FinalProject\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb

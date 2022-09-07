@@ -3,6 +3,7 @@ using Domain.Attributes;
 using Domain.Baskets;
 using Domain.Catalogs;
 using Domain.Order;
+using Domain.Payments;
 using Domain.Users;
 using Microsoft.EntityFrameworkCore;
 using Persistence.EntityConfigurations;
@@ -35,6 +36,7 @@ namespace Persistence.Contexts
         public DbSet<UserAddress>  userAddresses { get; set; }
         public DbSet<Order> orders { get; set; }
         public DbSet<OrderItem> orderItems { get; set; }
+        public DbSet<Payment> payments { get; set; }
         protected   override void OnModelCreating(ModelBuilder builder)
         {
            

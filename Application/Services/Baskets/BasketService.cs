@@ -25,10 +25,10 @@ namespace Application.Services.Baskets
 
         public void AddItemToBasket(int basketId, int catalogItemId, int quantity = 1)
         {
-            var basket = dataBaseContxt.baskets.Find(basketId);
+            var basket = dataBaseContxt.baskets.FirstOrDefault(p=>p.Id==basketId);
             if (basket == null)
                 throw new Exception(" ");
-            var price = dataBaseContxt.catalogItems.SingleOrDefault(p => p.Id == catalogItemId).Price;
+            var price = dataBaseContxt.catalogItems.Find(catalogItemId).Price;
             basket.AddItem(catalogItemId, quantity, price);
             dataBaseContxt.SaveChanges();
         }
@@ -133,13 +133,13 @@ namespace Application.Services.Baskets
             if (userBasket == null)
             {
                 userBasket = new Basket(UserId);
-                foreach (var item in anonymousBasket.Items)
-                {
-                    userBasket.AddItem(item.CatalogItemId, item.Quantity, item.UnitPrice);
-                }
+              
                 dataBaseContxt.baskets.Add(userBasket);
             }
-
+            foreach (var item in anonymousBasket.Items)
+            {
+                userBasket.AddItem(item.CatalogItemId, item.Quantity, item.UnitPrice);
+            }
             dataBaseContxt.baskets.Remove(anonymousBasket);
           
             dataBaseContxt.SaveChanges();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B7jgrRbNRctucITuo5re4xx9N8DFkZABqWsketDDlGJpvNSLb27LjbwsAel+d3BODC5uj/7/Bsix2Eil7w519g==",
+  "dgSpecHash": "wHqS6XN5bjwHZ10zzNF+I0WQU2BblgjtdAY44OchkrRxssOutdbcDulBbXSSIe4+2F+58up9od4szOit9LRmZQ==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\WebSite.EndPoint\\WebSite.EndPoint.csproj",
   "expectedPackageFiles": [
@@ -164,7 +164,8 @@
     "C:\\Users\\jafapour\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\jafapour\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\jafapour\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\zarinpal\\3.0.1\\zarinpal.3.0.1.nupkg.sha512"
   ],
   "logs": [
     {

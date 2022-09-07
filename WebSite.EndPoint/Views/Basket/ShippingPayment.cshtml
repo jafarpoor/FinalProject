@@ -27,32 +27,29 @@
                     <div class="checkout-section-title">آدرس تحویل سفارش</div>
                     <div class="row mx-0">
 
-                        @foreach (var item in Model.UserAddresses)
+                        @if (Model.UserAddresses != null)
                         {
-                            <div class="col-xl-3 col-lg-4 col-sm-6 mb-3">
-                                <div class="custom-control custom-radio">
-                                    <input type="radio" id="Address-@item.Id" name="Address" value="@item.Id" checked class="custom-control-input">
-                                    <label class="custom-control-label address-select" for="Address-@item.Id">
-                                        <span class="head-address-select">به این آدرس ارسال شود</span>
-                                        <span> @item.PostalAddress</span>
-                                        <span>
-                                            <i class="fa fa-user"></i>
-                                            @item.ReciverName
-                                        </span>
-                                        <a href="#" class="link--with-border-bottom edit-address-btn" data-toggle="modal" data-target="#editAddressModal">
-                                            ویرایش
-                                            <i class="fa fa-edit"></i>
-                                        </a>
-                                    </label>
+                            @foreach (var item in Model.UserAddresses)
+                            {
+                                <div class="col-xl-3 col-lg-4 col-sm-6 mb-3">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="Address-@item.Id" name="Address" value="@item.Id" checked class="custom-control-input">
+                                        <label class="custom-control-label address-select" for="Address-@item.Id">
+                                            <span class="head-address-select">به این آدرس ارسال شود</span>
+                                            <span> @item.PostalAddress</span>
+                                            <span>
+                                                <i class="fa fa-user"></i>
+                                                @item.ReciverName
+                                            </span>
+                                            <a href="#" class="link--with-border-bottom edit-address-btn" data-toggle="modal" data-target="#editAddressModal">
+                                                ویرایش
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                        </label>
+                                    </div>
                                 </div>
-                            </div>
+                            }
                         }
-
-
-
-
-
-
 
                         <div class="col-xl-3 col-lg-4 col-sm-6 mb-3">
                             <div class="custom-control custom-radio">

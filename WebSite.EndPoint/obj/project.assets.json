@@ -2506,6 +2506,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "ZarinPal/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.2/Dto.dll": {},
+          "lib/netcoreapp2.2/Service.dll": {},
+          "lib/netcoreapp2.2/ZarinPal.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/Dto.dll": {},
+          "lib/netcoreapp2.2/Service.dll": {},
+          "lib/netcoreapp2.2/ZarinPal.dll": {}
+        }
+      },
       "Admin.EndPoint/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -8288,6 +8301,20 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "ZarinPal/3.0.1": {
+      "sha512": "1XPTvVdTa+ywa61JOK7TXVNqzHfwg/8bnMqKh9ISvHWk8HEhhrFXhuC/F5c/xDz9smay7254gD6T4WicgS+FeQ==",
+      "type": "package",
+      "path": "zarinpal/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp2.2/Dto.dll",
+        "lib/netcoreapp2.2/Service.dll",
+        "lib/netcoreapp2.2/ZarinPal.dll",
+        "zarinpal.3.0.1.nupkg.sha512",
+        "zarinpal.nuspec"
+      ]
+    },
     "Admin.EndPoint/1.0.0": {
       "type": "project",
       "path": "../Admin.EndPoint/Admin.EndPoint.csproj",
@@ -8330,7 +8357,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.4",
       "Microsoft.IdentityModel >= 7.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "Persistence >= 1.0.0"
+      "Persistence >= 1.0.0",
+      "Zarinpal >= 3.0.1"
     ]
   },
   "packageFolders": {
@@ -8411,6 +8439,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[5.0.2, )"
+          },
+          "Zarinpal": {
+            "target": "Package",
+            "version": "[3.0.1, )"
           }
         },
         "imports": [
