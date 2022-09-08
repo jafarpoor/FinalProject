@@ -2,6 +2,7 @@
 using Application.Interfaces.Contexts;
 using Application.Interfaces.Payments;
 using Domain.Payments;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,29 @@ namespace Application.Services.Payments
 
         public PaymentDto GetPayment(Guid Id)
         {
-            throw new NotImplementedException();
+            var payment = context.payments
+                          .Include(p => p.Order)
+                          .ThenInclude(p => p.OrderItems)
+                          .SingleOrDefault(p => p.Id == Id);
+            var user = identityContext.Users.SingleOrDefault(p => p.Id == payment.Order.UserId);
+           
+            string description = $"پرداخت سفارش شماره {payment.OrderId} " + Environment.NewLine;
+            description += "محصولات" + Environment.NewLine;
+
+            foreach (var item in payment.Order.OrderItems.Select(p=>p.ProductName))
+            {
+                description += $"-{item}";
+            }
+
+            return new PaymentDto
+            {
+                Amount = payment.Order.TotalPrice(),
+                Description = description,
+                Email = user.Email,
+                Id = payment.Id,
+                PhoneNumber = user.PhoneNumber,
+                Userid = user.Id
+            };
         }
 
         public PaymentOfOrderDto PayForOrder(int OrderId)
