@@ -2,6 +2,7 @@
 using Domain.Attributes;
 using Domain.Baskets;
 using Domain.Catalogs;
+using Domain.Discounts;
 using Domain.Order;
 using Domain.Payments;
 using Domain.Users;
@@ -37,6 +38,7 @@ namespace Persistence.Contexts
         public DbSet<Order> orders { get; set; }
         public DbSet<OrderItem> orderItems { get; set; }
         public DbSet<Payment> payments { get; set; }
+        public DbSet<Discount> discounts { get; set; }
         protected   override void OnModelCreating(ModelBuilder builder)
         {
            

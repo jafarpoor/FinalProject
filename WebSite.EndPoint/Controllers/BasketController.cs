@@ -124,5 +124,10 @@ namespace WebSite.EndPoint.Controllers
             }
         }
 
+        public IActionResult Checkout()
+        {
+            return View();
+        }
+
     }
 }

@@ -8,6 +8,9 @@ using ZarinPal.Class;
 using Microsoft.Extensions.Configuration;
 using WebSite.EndPoint.Utilities;
 using Dto.Payment;
+using RestSharp;
+using Application.Dtos;
+using Newtonsoft.Json;
 
 namespace WebSite.EndPoint.Controllers
 {
@@ -73,8 +76,49 @@ namespace WebSite.EndPoint.Controllers
                 {
                     return NotFound();
                 }
-                return View();
+
+                //var verification = _payment.Verification(new DtoVerification
+                //{
+                //    Amount = payment.Amount,
+                //    Authority = Authority,
+                //    MerchantId = merchendId,
+                //}, Payment.Mode.zarinpal).Result;
+
+                var client = new RestClient("https://www.zarinpal.com/pg/rest/WebGate/PaymentVerification.json");
+                client.Timeout = -1;
+                var request = new RestRequest(Method.POST);
+                request.AddHeader("Content-Type", "application/json");
+                request.AddParameter("application/json", $"{{\"MerchantID\" :\"{merchendId}\",\"Authority\":\"{Authority}\",\"Amount\":\"{payment.Amount}\"}}", ParameterType.RequestBody);
+                var response = client.Execute(request);
+
+                VerificationPayResultDto verification =
+                    JsonConvert.DeserializeObject<VerificationPayResultDto>(response.Content);
+
+                if (verification.Status == 100)
+                {
+                    bool verifyResult = paymentService.VerifyPayment(Id, Authority, verification.RefID);
+                    if (verifyResult)
+                    {
+                        return Redirect("/customers/orders");
+                    }
+                    else
+                    {
+                        TempData["message"] = "پرداخت انجام شد اما ثبت نشد";
+                        return RedirectToAction("checkout", "basket");
+                    }
+                }
+                else
+                {
+                    TempData["message"] = "پرداخت شما ناموفق بوده است . لطفا مجددا تلاش نمایید یا در صورت بروز مشکل با مدیریت سایت تماس بگیرید .";
+                    return RedirectToAction("checkout", "basket");
+                }
+
             }
+            TempData["message"] = "پرداخت شما ناموفق بوده است .";
+            return RedirectToAction("checkout", "basket");
         }
-    }
-}
+
+
+        }
+   }
+

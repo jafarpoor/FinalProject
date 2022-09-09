@@ -69,7 +69,15 @@ namespace Application.Services.Payments
 
         public bool VerifyPayment(Guid Id, string Authority, long RefId)
         {
-            throw new NotImplementedException();
+            var payment = context.payments
+                         .Include(p => p.Order)
+                         .SingleOrDefault(p => p.Id == Id);
+            if (payment == null)
+                throw new Exception("Not Fund");
+               payment.Order.PaymentDone();
+            payment.PaymentIsDone(Authority , RefId);
+            context.SaveChanges();
+            return true;
         }
     }
 }

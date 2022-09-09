@@ -1145,3 +1145,7 @@ F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.dll
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\ref\WebSite.EndPoint.dll
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.pdb
 F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.genruntimeconfig.cache
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Dto.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\Service.dll
+F:\FinalProject\WebSite.EndPoint\bin\Debug\net5.0\ZarinPal.dll
+F:\FinalProject\WebSite.EndPoint\obj\Debug\net5.0\Razor\Views\Basket\Checkout.cshtml.g.cs
