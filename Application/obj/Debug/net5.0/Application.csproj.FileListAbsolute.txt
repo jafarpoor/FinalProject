@@ -1,3 +1,11 @@
+F:\FinalProject\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+F:\FinalProject\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+F:\FinalProject\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+F:\FinalProject\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+F:\FinalProject\Application\obj\Debug\net5.0\Application.dll
+F:\FinalProject\Application\obj\Debug\net5.0\ref\Application.dll
+F:\FinalProject\Application\obj\Debug\net5.0\Application.pdb
 F:\FinalProject\Application\bin\Debug\net5.0\Application.deps.json
 F:\FinalProject\Application\bin\Debug\net5.0\Application.dll
 F:\FinalProject\Application\bin\Debug\net5.0\ref\Application.dll
@@ -6,12 +14,3 @@ F:\FinalProject\Application\bin\Debug\net5.0\Common.dll
 F:\FinalProject\Application\bin\Debug\net5.0\Domain.dll
 F:\FinalProject\Application\bin\Debug\net5.0\Common.pdb
 F:\FinalProject\Application\bin\Debug\net5.0\Domain.pdb
-F:\FinalProject\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
-F:\FinalProject\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
-F:\FinalProject\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
-F:\FinalProject\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
-F:\FinalProject\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
-F:\FinalProject\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
-F:\FinalProject\Application\obj\Debug\net5.0\Application.dll
-F:\FinalProject\Application\obj\Debug\net5.0\ref\Application.dll
-F:\FinalProject\Application\obj\Debug\net5.0\Application.pdb

@@ -2,7 +2,9 @@ using Admin.EndPoint.AutoMapperConfigs;
 using Application.Interfaces.Catalogs;
 using Application.Interfaces.Catalogs.Dto;
 using Application.Interfaces.Contexts;
+using Application.Interfaces.Discounts;
 using Application.Services.Catalogs;
+using Application.Services.Discounts.AddNewDiscountServices;
 using FluentValidation;
 using Infrastructure.Api.ImageServer;
 using Infrastructure.AutoMapperConfigs;
@@ -55,6 +57,8 @@ namespace Admin.EndPoint
 
             //fluentValidation
             services.AddTransient<IValidator<AddNewCatalogItemDto>, AddNewCatalogItemDtoValidator>();
+
+            services.AddTransient<IAddNewDiscountService, AddNewDiscountService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
