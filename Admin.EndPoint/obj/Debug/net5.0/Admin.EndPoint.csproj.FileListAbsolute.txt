@@ -569,3 +569,4 @@ F:\FinalProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.Views.pdb
 F:\FinalProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.csproj.CopyComplete
 F:\FinalProject\Admin.EndPoint\obj\Debug\net5.0\Admin.EndPoint.genruntimeconfig.cache
 F:\FinalProject\Admin.EndPoint\obj\Debug\net5.0\Razor\Pages\Discounts\Create.cshtml.g.cs
+F:\FinalProject\Admin.EndPoint\bin\Debug\net5.0\libman.json

@@ -3,6 +3,10 @@
 @{
 }
 @using Domain.Discounts;
+<link href="~/MdPersianDateTimePicker/jquery.md.bootstrap.datetimepicker.style.css" rel="stylesheet" />
+<link href="~/lib/select2/css/select2.css" rel="stylesheet" />
+
+<link href="https://raw.githack.com/ttskch/select2-bootstrap4-theme/master/dist/select2-bootstrap4.css" rel="stylesheet">
 
 <div class="col-lg-12 col-12 layout-spacing">
     <div class="statbox widget box box-shadow">
@@ -98,3 +102,66 @@
         </div>
     </div>
 </div>
+
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+    <script src="~/MdPersianDateTimePicker/jquery.md.bootstrap.datetimepicker.js"></script>
+    <script>
+        $('#model_StartDate').MdPersianDateTimePicker({
+            targetTextSelector: '#model_StartDate',
+            toDate: true,
+            groupId: 'rangeSelector1',
+            placement: 'top',
+            enableTimePicker: true,
+            dateFormat: 'yyyy-MM-dd HH:mm:ss',
+            textFormat: 'yyyy-MM-dd HH:mm:ss',
+            modalMode: true
+        });
+
+        $('#model_EndDate').MdPersianDateTimePicker({
+            targetTextSelector: '#model_EndDate',
+            toDate: true,
+            groupId: 'rangeSelector1',
+            placement: 'top',
+            enableTimePicker: true,
+            dateFormat: 'yyyy-MM-dd HH:mm:ss',
+            textFormat: 'yyyy-MM-dd HH:mm:ss',
+            modalMode: true
+        });
+    </script>
+
+    <script src="~/lib/select2/js/select2.js"></script>
+    <script>
+    $("#model_appliedToCatalogItem").select2({
+        placeholder: "محصول را جستجو وانتخاب کنید",
+        allowClear: true,
+        multiple: true,
+        tags: true,
+        tokenSeparators: [',', ' '],
+        theme: "bootstrap4",
+        ajax: {
+            url: "/api/DiscountApi/SearchCatalogItem",
+            contentType: "application/json; charset=utf-8",
+            data: function (params) {
+                var query =
+                {
+                    term: params.term,
+                };
+                return query;
+            },
+            processResults: function (result) {
+                return {
+                    results: $.map(result, function (item) {
+                        return {
+                            id: item.id,
+                            text: item.name
+                        };
+                    }),
+                };
+            }
+        }
+    });
+    </script>
+
+}

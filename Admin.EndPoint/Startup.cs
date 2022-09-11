@@ -4,6 +4,7 @@ using Application.Interfaces.Catalogs.Dto;
 using Application.Interfaces.Contexts;
 using Application.Interfaces.Discounts;
 using Application.Services.Catalogs;
+using Application.Services.Discounts;
 using Application.Services.Discounts.AddNewDiscountServices;
 using FluentValidation;
 using Infrastructure.Api.ImageServer;
@@ -37,7 +38,7 @@ namespace Admin.EndPoint
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
-
+            services.AddControllers();
             #region connection String SqlServer
             services.AddScoped<IDataBaseContext, DataBaseContext>();
             services.AddTransient<ICatalogTypeServiec, CatalogTypeService>();
@@ -59,6 +60,8 @@ namespace Admin.EndPoint
             services.AddTransient<IValidator<AddNewCatalogItemDto>, AddNewCatalogItemDtoValidator>();
 
             services.AddTransient<IAddNewDiscountService, AddNewDiscountService>();
+            services.AddTransient<IDiscountService, DiscountService>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -85,6 +88,7 @@ namespace Admin.EndPoint
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }
