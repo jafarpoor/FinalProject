@@ -39,6 +39,7 @@ namespace Persistence.Contexts
         public DbSet<OrderItem> orderItems { get; set; }
         public DbSet<Payment> payments { get; set; }
         public DbSet<Discount> discounts { get; set; }
+        public DbSet<DiscountUsageHistory> discountUsageHistories { get; set; }
         protected   override void OnModelCreating(ModelBuilder builder)
         {
            
@@ -80,28 +81,33 @@ namespace Persistence.Contexts
             {
                 var entityType= item.Context.Model.FindEntityType(item.Entity.GetType());
 
-                var inserted = entityType.FindProperty("InsertTime");
-                var updated= entityType.FindProperty("UpdateTime");
-                var RemoveTime= entityType.FindProperty("RemoveTime");
-                var IsRemoved = entityType.FindProperty("IsRemoved");
-                if(item.State == EntityState.Added && inserted != null)
+                if (entityType != null)
                 {
-                    item.Property("InsertTime").CurrentValue = DateTime.Now;
-                }   
-                if(item.State == EntityState.Modified && updated != null)
-                {
-                    item.Property("UpdateTime").CurrentValue = DateTime.Now;
-                }   
-                
-                if(item.State == EntityState.Deleted && RemoveTime != null && IsRemoved != null)
-                {
-                    item.Property("RemoveTime").CurrentValue = DateTime.Now;
-                    item.Property("IsRemoved").CurrentValue = true;
+                    var inserted = entityType.FindProperty("InsertTime");
+                    var updated = entityType.FindProperty("UpdateTime");
+                    var RemoveTime = entityType.FindProperty("RemoveTime");
+                    var IsRemoved = entityType.FindProperty("IsRemoved");
+                    if (item.State == EntityState.Added && inserted != null)
+                    {
+                        item.Property("InsertTime").CurrentValue = DateTime.Now;
+                    }
+                    if (item.State == EntityState.Modified && updated != null)
+                    {
+                        item.Property("UpdateTime").CurrentValue = DateTime.Now;
+                    }
+
+                    if (item.State == EntityState.Deleted && RemoveTime != null && IsRemoved != null)
+                    {
+                        item.Property("RemoveTime").CurrentValue = DateTime.Now;
+                        item.Property("IsRemoved").CurrentValue = true;
 
 
-                    //چونکه نمیخواهیم از دیتابیس حذف کنیم و فقط میخواهیم تغییر وضعیت بدهیم
-                    item.State = EntityState.Modified;
+                        //چونکه نمیخواهیم از دیتابیس حذف کنیم و فقط میخواهیم تغییر وضعیت بدهیم
+                        item.State = EntityState.Modified;
+                    }
                 }
+
+         
             }
             return base.SaveChanges();  
         }

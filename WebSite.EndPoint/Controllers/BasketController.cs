@@ -1,5 +1,6 @@
 ﻿using Application.Dtos;
 using Application.Interfaces.Baskets;
+using Application.Interfaces.Discounts;
 using Application.Interfaces.Orders;
 using Application.Interfaces.Payments;
 using Application.Interfaces.Users;
@@ -26,10 +27,12 @@ namespace WebSite.EndPoint.Controllers
         private readonly IOrderService orderService;
         private string UserId = null;
         private readonly IPaymentService paymentService;
+        private readonly IDiscountService discountService;
         public BasketController(IBasketService basketService , SignInManager<User> signInManager,
                                 IUserAddressService userAddressService ,
                                 IOrderService orderService,
-                                IPaymentService paymentService)
+                                IPaymentService paymentService ,
+                                IDiscountService discountService)
         {
             this.basketService = basketService;
             this.signInManager = signInManager;
@@ -127,6 +130,19 @@ namespace WebSite.EndPoint.Controllers
         public IActionResult Checkout()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult ApplyDiscount(string CouponCode, int BasketId)
+        {
+            discountService.ApplyDiscountInBasket(CouponCode, BasketId);
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult RemoveDiscount(int id)
+        {
+            discountService.RemoveDiscountFromBasket(id);
+            return RedirectToAction(nameof(Index));
         }
 
     }

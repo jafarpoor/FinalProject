@@ -49,6 +49,7 @@ namespace Application.Services.Baskets
             {
                 BuyerId = BuyerId,
                 Id = basket.Id,
+                DiscountAmount = basket.DiscountAmount,
                 Items = basket.Items.Select(p => new BasketItemDto
                 {
                     CatalogItemid = p.CatalogItemId,
@@ -139,6 +140,10 @@ namespace Application.Services.Baskets
             foreach (var item in anonymousBasket.Items)
             {
                 userBasket.AddItem(item.CatalogItemId, item.Quantity, item.UnitPrice);
+            }
+            if (anonymousBasket.DiscountAmount !=null)
+            {
+                userBasket.ApplyDiscountCode(anonymousBasket.AppliedDiscount);
             }
             dataBaseContxt.baskets.Remove(anonymousBasket);
           

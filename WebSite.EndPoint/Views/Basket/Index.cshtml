@@ -96,22 +96,31 @@
                 <div class="d-flex justify-content-between px-3 py-2">
                     <span class="text-muted">قیمت کالاها (@Model.Items.Count)</span>
                     <span class="text-muted">
-                        @Model.Items.Sum(p => p.UnitPrice * p.Quantity).ToString("n0")
+                        @Model.TotalWithOutDiescount().ToString("n0")
                         <span class="text-sm">تومان</span>
                     </span>
                 </div>
-                <div class="d-flex justify-content-between px-3 py-2">
-                    <span class="text-muted">تخفیف کالاها</span>
-                    <span class="text-danger">
-                        (۲٪) ۵۱۰,۰۰۰
-                        <span class="text-sm">تومان</span>
-                    </span>
-                </div>
+                @if (Model.DiscountAmount > 0)
+                {
+                    <div class="d-flex justify-content-between px-3 py-2">
+                        <span class="text-muted">تخفیف کالاها</span>
+                        <span class="text-danger">
+                            @Model.DiscountAmount.ToString("n0")
+                            <span class="text-sm">تومان</span>
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-between px-3 py-2">
+                        <a asp-action="RemoveDiscount" asp-route-id="@Model.Id" class="text-danger">
+                            <i class="fa fa-closed-captioning"></i>
+                            حذف تخفیف
+                        </a>
+                    </div>
+                }
                 <hr>
                 <div class="d-flex justify-content-between px-3 py-2">
                     <span class="font-weight-bold">جمع</span>
                     <span class="font-weight-bold">
-                        @Model.Items.Sum(p => p.UnitPrice * p.Quantity).ToString("n0")
+                        @Model.Total().ToString("n0")
                         <span class="text-sm">تومان</span>
                     </span>
                 </div>
@@ -119,13 +128,32 @@
                 <div class="d-flex justify-content-between px-3 py-2">
                     <span class="font-weight-bold">مبلغ قابل پرداخت</span>
                     <span class="font-weight-bold">
-                        @Model.Items.Sum(p => p.UnitPrice * p.Quantity).ToString("n0")
+                        @Model.Total().ToString("n0")
                         <span class="text-sm">تومان</span>
                     </span>
                 </div>
                 <div class="d-flex px-3 py-4">
                     <a asp-action="ShippingPayment" class="btn btn-danger btn-block py-2">ادامه فرایند خرید</a>
                 </div>
+
+                <form method="post" asp-action="ApplyDiscount">
+                    <input type="hidden" value="@Model.Id" name="BasketId" />
+                    <hr />
+                    <div class="d-flex justify-content-between px-3 py-2">
+                        <p class="small">آیا کد تخفیف دارید؟</p>
+                    </div>
+                    <div class="d-flex justify-content-between px-3 py-2">
+
+                        <span class="font-weight-bold">کد </span>
+                        <span class="font-weight-bold">
+
+                            <input type="text" name="CouponCode" class="form-control" />
+                        </span>
+                    </div>
+                    <div class="d-flex px-3 py-4">
+                        <button class="btn btn-block py-2">ثبت کد تخفیف</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

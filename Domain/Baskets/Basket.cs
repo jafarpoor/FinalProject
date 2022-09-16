@@ -1,4 +1,5 @@
 ﻿using Domain.Attributes;
+using Domain.Discounts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,10 @@ namespace Domain.Baskets
         public int Id { get; set; }
         public string BuyerId { get; private set; }
         private readonly List<BasketItem> _items = new List<BasketItem>();
+
+        public int DiscountAmount { get; private set; } = 0;
+        public Discount AppliedDiscount { get; private set; }
+        public int? AppliedDiscountId { get; private set; }
 
         public ICollection<BasketItem> Items => _items.AsReadOnly();
         public Basket(string buyerId)
@@ -29,6 +34,27 @@ namespace Domain.Baskets
             }
             var existingItem = Items.FirstOrDefault(p => p.CatalogItemId == catalogItemId);
             existingItem.AddQuantity(quantity);
+        }
+
+
+        public int TotalPriceWithOutDiescount()
+        {
+            var Totalprice = _items.Sum(p => p.UnitPrice * p.Quantity);
+            return Totalprice;
+        }
+        public void ApplyDiscountCode(Discount discount)
+        {
+            this.AppliedDiscount = discount;
+            this.AppliedDiscountId = discount.Id;
+            this.DiscountAmount = discount.GetDiscountAmount(TotalPriceWithOutDiescount());
+                
+        }
+
+        public void RemoveDescount()
+        {
+            DiscountAmount = 0;
+            AppliedDiscountId = null;
+            AppliedDiscount = null;
         }
     }
 }

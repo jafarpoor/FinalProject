@@ -27,6 +27,7 @@ namespace Application.Interfaces.Contexts
         public DbSet<OrderItem> orderItems { get; set; }
         public DbSet<Payment> payments { get; set; }
        public DbSet<Discount> discounts { get; set; }
+        public DbSet<DiscountUsageHistory> discountUsageHistories { get; set; }
         int SaveChanges();
         int SaveChanges(bool acceptAllChangesOnSuccess);
 

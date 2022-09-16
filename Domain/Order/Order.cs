@@ -1,4 +1,5 @@
 ﻿using Domain.Attributes;
+using Domain.Discounts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,29 +22,48 @@ namespace Domain.Order
         private readonly List<OrderItem> _orderItems = new List<OrderItem>();
         public IReadOnlyCollection<OrderItem> OrderItems => _orderItems.AsReadOnly();
 
-        //public decimal DiscountAmount { get; private set; }
-        //public Discount AppliedDiscount { get; private set; }
-        //public int? AppliedDiscountId { get; private set; }
+        public decimal DiscountAmount { get; private set; }
+        public Discount AppliedDiscount { get; private set; }
+        public int? AppliedDiscountId { get; private set; }
 
 
         public Order(string userId, Address address,
             List<OrderItem> orderItems,
-            PaymentMethod paymentMethod)
+            PaymentMethod paymentMethod 
+             , Discount discount)
         {
             UserId = userId;
             Address = address;
             _orderItems = orderItems;
             PaymentMethod = paymentMethod;
+            if (AppliedDiscount != null)
+                ApplyDiscountCode(discount);
         }
 
         public Order()
         {
 
         }
+
         public int TotalPrice()
         {
             int totalPrice = _orderItems.Sum(p => p.UnitPrice * p.Units);
+            if (DiscountAmount != null)
+                totalPrice -= AppliedDiscount.GetDiscountAmount(totalPrice);
             return totalPrice;
+        }
+        public int TotalPriceWithOutDiescount()
+        {
+            int totalPrice = _orderItems.Sum(p => p.UnitPrice * p.Units);
+            return totalPrice;
+        }
+
+        public void ApplyDiscountCode(Discount discount)
+        {
+            this.AppliedDiscount = discount;
+            this.AppliedDiscountId = discount.Id;
+            this.DiscountAmount = discount.GetDiscountAmount(TotalPrice());
+
         }
         /// <summary>
         /// پرداخت انجام شد
@@ -125,4 +145,7 @@ namespace Domain.Order
         /// </summary>
         Cancelled = 3,
     }
+
+
+
 }

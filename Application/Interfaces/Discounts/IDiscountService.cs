@@ -10,5 +10,7 @@ namespace Application.Interfaces.Discounts
    public interface IDiscountService
     {
         List<CatlogItemDto> GetCatalogItems(string searchKey);
+        bool ApplyDiscountInBasket(string CoponCode, int BasketId);
+        bool RemoveDiscountFromBasket(int BasketId);
     }
 }

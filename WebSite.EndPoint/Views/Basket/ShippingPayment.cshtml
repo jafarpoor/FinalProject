@@ -91,14 +91,14 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-md-4">
             <div class="shadow-around pt-3">
-                @*<div class="d-flex justify-content-between px-3 py-2">
+                <div class="d-flex justify-content-between px-3 py-2">
                     <span class="text-muted">قیمت کالاها (@Model.Basket.Items.Count)</span>
                     <span class="text-muted">
                         @Model.Basket.TotalWithOutDiescount().ToString("n0")
                         <span class="text-sm">تومان</span>
                     </span>
-                </div>*@
-                @*@if (Model.Basket.DiscountAmount > 0)
+                </div>
+                @if (Model.Basket.DiscountAmount > 0)
                 {
                     <div class="d-flex justify-content-between px-3 py-2">
                         <span class="text-muted">تخفیف کالاها</span>
@@ -107,7 +107,7 @@
                             <span class="text-sm">تومان</span>
                         </span>
                     </div>
-                }*@
+                }
                 <hr>
                 <div class="d-flex justify-content-between px-3 py-2">
                     <span class="font-weight-bold">جمع</span>
@@ -130,6 +130,7 @@
             </div>
         </div>
     </form>
+
 
 </div>
 

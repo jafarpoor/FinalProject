@@ -1,4 +1,5 @@
 ﻿using Application.Interfaces.Contexts;
+using Application.Interfaces.Discounts;
 using Application.Interfaces.Orders;
 using AutoMapper;
 using Domain.Order;
@@ -17,19 +18,23 @@ namespace Application.Services.Orders
         private readonly IDataBaseContext context;
         private readonly IMapper mapper;
         private readonly IUriComposerService uriComposerService;
+        private readonly IDiscountHistoryService discountHistoryService;
 
         public OrderService(IDataBaseContext context
          , IMapper mapper
-         , IUriComposerService uriComposerService)
+         , IUriComposerService uriComposerService
+        , IDiscountHistoryService discountHistoryService)
         {
             this.context = context;
             this.mapper = mapper;
             this.uriComposerService = uriComposerService;
+            this.discountHistoryService = discountHistoryService;
         }
         public int CreateOrder(int BasketId, int UserAddressId, PaymentMethod paymentMethod)
         {
             var basket = context.baskets
                         .Include(p => p.Items)
+                        .Include(p=>p.AppliedDiscount)
                         .SingleOrDefault(p => p.Id == BasketId);
 
             int[] Ids = basket.Items.Select(p => p.CatalogItemId).ToArray();
@@ -54,10 +59,15 @@ namespace Application.Services.Orders
 
             var userAddress = context.userAddresses.SingleOrDefault(p => p.Id == UserAddressId);
             var address = mapper.Map<Address>(userAddress);
-            var order = new Order(basket.BuyerId, address, orderItems, paymentMethod);
+            var order = new Order(basket.BuyerId, address, orderItems, paymentMethod ,basket.AppliedDiscount);
             context.orders.Add(order);
             context.baskets.Remove(basket);
             context.SaveChanges();
+
+            if(basket.DiscountAmount != null)
+            {
+                discountHistoryService.InsertDiscountUsageHistory(basket.Id, order.Id);
+            }
 
             return order.Id;
         }

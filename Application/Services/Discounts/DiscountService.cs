@@ -1,6 +1,7 @@
 ﻿using Application.Dtos;
 using Application.Interfaces.Contexts;
 using Application.Interfaces.Discounts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,20 @@ namespace Application.Services.Discounts
         {
             this.context = context;
         }
+
+        public bool ApplyDiscountInBasket(string CoponCode, int BasketId)
+        {
+            var basket = context.baskets
+                          .Include(p => p.Items)
+                          .Include(p => p.AppliedDiscount)
+                          .SingleOrDefault(p => p.Id == BasketId);
+            var discount = context.discounts.Where(p => p.CouponCode.Contains(CoponCode)).FirstOrDefault();
+            basket.ApplyDiscountCode(discount);
+            context.SaveChanges();
+            return true;
+
+        }
+
         public List<CatlogItemDto> GetCatalogItems(string searchKey)
         {
             if (!string.IsNullOrEmpty(searchKey))
@@ -34,7 +49,6 @@ namespace Application.Services.Discounts
             else
             {
                 var result = context.catalogItems
-                         .Where(p => p.Name.Contains(searchKey))
                          .Select(p => new CatlogItemDto
                          {
                              Id = p.Id,
@@ -43,6 +57,15 @@ namespace Application.Services.Discounts
                 return result;
             }
 
+        }
+
+        public bool RemoveDiscountFromBasket(int BasketId)
+        {
+            var basket = context.baskets
+                .SingleOrDefault(p => p.Id == BasketId);
+            basket.RemoveDescount();
+            context.SaveChanges();
+            return true;
         }
     }
 }
