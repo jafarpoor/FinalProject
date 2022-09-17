@@ -1,0 +1,66 @@
+﻿@using Application.Services.Catalogs
+@using Application.Interfaces.Catalogs.Dto
+@using Application.Dtos
+@model PaginatedItemsDto<FavouriteCatalogItemDto>
+
+@{
+    ViewData["Title"] = "محبوب ها";
+    Layout = "~/Views/Shared/_LayoutCustomerPanel.cshtml";
+}
+
+<div class="shadow-around">
+    <div class="listing-items row">
+
+        @foreach (var item in Model.Data)
+        {
+            <div class="col-lg-6 px-0">
+                <div class="product-card product-card-horizontal">
+                    <div class="product-card-top">
+                        <a href="" class="product-image">
+                            <img src="@item.Image" alt="@item.Name">
+                        </a>
+                        <div class="product-card-actions">
+                            <button class="add-to-wishlist added"><i class="fas fa-heart"></i></button>
+                            <button class="add-to-compare"><i class="fas fa-random"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-card-middle">
+                        <div class="ratings-container">
+                            <div class="ratings">
+                                @{ int rate = item.Rate * 20; }
+                                <div class="ratings-val" style="width: @rate%;"></div>
+                            </div>
+                        </div>
+                        <h6 class="product-name">
+                            <a asp-action="Details" asp-controller="Product" asp-route-id="@item.Id">
+                                @item.Name
+                            </a>
+                        </h6>
+                        <div class="product-price product-price-clone">650,000 تومان</div>
+                    </div>
+                    <div class="product-card-bottom">
+                        @if (item.AvailableStock > 0)
+                        {
+                            <div class="product-price">
+                                @item.Price.ToString("n0")  تومان
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="product-price">
+                                <b class="text-danger">ناموجود </b>
+                            </div>
+                        }
+                        <a asp-action="Details" asp-controller="Product" asp-route-id="@item.Id" class="btn-add-to-cart">
+                            <i class="fad fa-cart-plus"></i>
+                            مشاهده محصول
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
+    </div>
+</div>

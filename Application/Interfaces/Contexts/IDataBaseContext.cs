@@ -18,16 +18,17 @@ namespace Application.Interfaces.Contexts
          DbSet<CatalogItem> catalogItems { get; set; }
          DbSet<CatalogType> catalogTypes { get; set; }
          DbSet<CatalogBrand> catalogBrands { get; set; }
-        public DbSet<CatalogItemImage> catalogItemImages { get; set; }
-        public DbSet<CatalogItemFeature> catalogItemFeatures { get; set; }
-        public DbSet<Basket> baskets { get; set; }
-        public DbSet<BasketItem> basketItems { get; set; }
-        public DbSet<UserAddress> userAddresses { get; set; }
-        public DbSet<Order> orders { get; set; }
-        public DbSet<OrderItem> orderItems { get; set; }
-        public DbSet<Payment> payments { get; set; }
-       public DbSet<Discount> discounts { get; set; }
-        public DbSet<DiscountUsageHistory> discountUsageHistories { get; set; }
+         DbSet<CatalogItemImage> catalogItemImages { get; set; }
+         DbSet<CatalogItemFeature> catalogItemFeatures { get; set; }
+         DbSet<Basket> baskets { get; set; }
+         DbSet<BasketItem> basketItems { get; set; }
+         DbSet<UserAddress> userAddresses { get; set; }
+         DbSet<Order> orders { get; set; }
+         DbSet<OrderItem> orderItems { get; set; }
+         DbSet<Payment> payments { get; set; }
+         DbSet<Discount> discounts { get; set; }
+         DbSet<DiscountUsageHistory> discountUsageHistories { get; set; }
+         DbSet<CatalogItemFavourite> catalogItemFavourites { get; set; }
         int SaveChanges();
         int SaveChanges(bool acceptAllChangesOnSuccess);
 

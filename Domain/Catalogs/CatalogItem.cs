@@ -23,5 +23,6 @@ namespace Domain.Catalogs
         public ICollection<Discount> Discounts { get; set; }
         public ICollection<CatalogItemFeature> CatalogItemFeatures { get; set; }
         public ICollection<CatalogItemImage> CatalogItemImages { get; set; }
+        public ICollection<CatalogItemFavourite> CatalogItemFavourites { get; set; }
     }
 }

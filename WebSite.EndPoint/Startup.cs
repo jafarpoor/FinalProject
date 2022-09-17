@@ -1,12 +1,14 @@
 using Admin.EndPoint.AutoMapperConfigs;
 using Application.Interfaces.Baskets;
 using Application.Interfaces.Catalogs;
+using Application.Interfaces.Catalogs.CatalogItemFavourites;
 using Application.Interfaces.Contexts;
 using Application.Interfaces.Discounts;
 using Application.Interfaces.Orders;
 using Application.Interfaces.Payments;
 using Application.Interfaces.Users;
 using Application.Services.Baskets;
+using Application.Services.Catalogs.CatalogItemFavourites;
 using Application.Services.Catalogs.GetCatalogItemsPDP;
 using Application.Services.Discounts;
 using Application.Services.GetMenuItem;
@@ -14,6 +16,7 @@ using Application.Services.GetMenuItem.GetCatalogItemPLP;
 using Application.Services.Orders;
 using Application.Services.Payments;
 using Application.Services.Users;
+using Domain.Catalogs;
 using Domain.Users;
 using Infrastructure.Api.ImageServer;
 using Infrastructure.AutoMapperConfigs;
@@ -79,6 +82,7 @@ namespace WebSite.EndPoint
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<IDiscountService, DiscountService>();
             services.AddTransient<IDiscountHistoryService, DiscountHistoryService>();
+            services.AddTransient<ICatalogItemFavouriteService, CatalogItemFavouriteService>();
             services.AddIdentityService(Configuration);
             services.AddAuthorization();
             services.ConfigureApplicationCookie(option =>

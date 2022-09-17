@@ -40,6 +40,7 @@ namespace Persistence.Contexts
         public DbSet<Payment> payments { get; set; }
         public DbSet<Discount> discounts { get; set; }
         public DbSet<DiscountUsageHistory> discountUsageHistories { get; set; }
+        public DbSet<CatalogItemFavourite> catalogItemFavourites { get; set; }
         protected   override void OnModelCreating(ModelBuilder builder)
         {
            
