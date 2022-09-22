@@ -15,7 +15,6 @@ namespace Domain.Order
         public string UserId { get; private set; }
         public DateTime OrderDate { get; private set; } = DateTime.Now;
         public Address Address { get; private set; }
-
         public PaymentMethod PaymentMethod { get; private set; }
         public PaymentStatus PaymentStatus { get; private set; }
         public OrderStatus OrderStatus { get; private set; }

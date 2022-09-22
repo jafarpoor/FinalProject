@@ -10,6 +10,6 @@ namespace Application.Interfaces.Catalogs
 {
   public  interface IGetCatalogItemPLPServiec
     {
-        PaginatedItemsDto<GetCatalogItemPLPDto> Execute(int Page, int PageSize);
+        PaginatedItemsDto<GetCatalogItemPLPDto> Execute(CatlogPLPRequestDto catlogPLPRequestDto);
     }
 }

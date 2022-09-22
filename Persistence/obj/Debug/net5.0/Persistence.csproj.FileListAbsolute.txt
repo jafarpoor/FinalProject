@@ -19,4 +19,3 @@ F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.dll
 F:\FinalProject\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.pdb
 F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.genruntimeconfig.cache
-F:\FinalProject\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete

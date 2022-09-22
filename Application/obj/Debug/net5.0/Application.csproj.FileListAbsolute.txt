@@ -14,3 +14,4 @@ F:\FinalProject\Application\bin\Debug\net5.0\Common.dll
 F:\FinalProject\Application\bin\Debug\net5.0\Domain.dll
 F:\FinalProject\Application\bin\Debug\net5.0\Common.pdb
 F:\FinalProject\Application\bin\Debug\net5.0\Domain.pdb
+F:\FinalProject\Application\obj\Debug\net5.0\Application.csproj.CopyComplete

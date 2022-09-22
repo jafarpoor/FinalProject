@@ -1,4 +1,5 @@
-﻿using Application.Interfaces.Catalogs;
+﻿using Application.Dtos;
+using Application.Interfaces.Catalogs;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,9 @@ namespace WebSite.EndPoint.Controllers
             this.getCatalogItemPLPServie = getCatalogItemPLPServie;
             this.getCatalogItemPDPService = getCatalogItemPDPService;
         }
-        public IActionResult Index(int Page =1 , int PageSize=100)
+        public IActionResult Index(CatlogPLPRequestDto dto)
         {
-            return View(getCatalogItemPLPServie.Execute(Page, PageSize));
+            return View(getCatalogItemPLPServie.Execute(dto));
         }
 
         public IActionResult Details(int id)

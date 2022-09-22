@@ -30,6 +30,9 @@ namespace Application.Services.Catalogs.GetCatalogItemsPDP
                .Include(p => p.CatalogBrand)
                .SingleOrDefault(p => p.Id == Id);
 
+                catalogitem.VisitCount += 1;
+                dataBaseContext.SaveChanges();
+
             var feature = catalogitem.CatalogItemFeatures
                 .Select(p => new PDPFeaturesDto
                 {

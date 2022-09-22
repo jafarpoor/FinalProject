@@ -252,6 +252,32 @@
         </div>
         <div class="listing-items row">
 
+            <ul class="nav nav-pills col-md-12">
+
+                <li class="nav-item">
+                    <b class="nav-link " aria-current="page">مرتب‌سازی بر اساس :</b>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Index" asp-route-sorttype="1"> پربازدیدترین</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Index" asp-route-sorttype="2">  پرفروش‌ترین</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Index" asp-route-sorttype="3"> محبوب‌ترین</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Index" asp-route-sorttype="4"> ‌جدیدترین</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Index" asp-route-sorttype="5"> ارزان‌ترین</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Index" asp-route-sorttype="6"> گران‌ترین</a>
+                </li>
+            </ul>
+
             @foreach (var item in Model.Data)
             {
                 <div class="col-lg-3 col-md-4 col-sm-6 px-0">

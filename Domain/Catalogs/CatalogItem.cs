@@ -1,5 +1,6 @@
 ﻿using Domain.Attributes;
 using Domain.Discounts;
+using Domain.Order;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,6 +18,7 @@ namespace Domain.Catalogs
         public CatalogType CatalogType { get; set; }
         public int CatalogBrandId { get; set; }
         public CatalogBrand CatalogBrand { get; set; }
+        public int VisitCount { get; set; }
         public int AvailableStock { get; set; }
         public int RestockThreshold { get; set; }
         public int MaxStockThreshold { get; set; }
@@ -24,5 +26,6 @@ namespace Domain.Catalogs
         public ICollection<CatalogItemFeature> CatalogItemFeatures { get; set; }
         public ICollection<CatalogItemImage> CatalogItemImages { get; set; }
         public ICollection<CatalogItemFavourite> CatalogItemFavourites { get; set; }
+        public ICollection<OrderItem>  OrderItems { get; set; }
     }
 }
